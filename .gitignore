@@ -1,0 +1,22 @@
+# Data files (ERA5 / Copernicus — too large, licensing)
+data/*.nc
+data/*.grib
+data/*.grb
+data/*.zip
+data/*.tar
+data/*.gz
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
