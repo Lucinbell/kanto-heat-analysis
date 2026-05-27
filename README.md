@@ -46,3 +46,40 @@ kanto-heat-analysis/
 ```
 
 See [`capstone/CAPSTONE_MAP.md`](capstone/CAPSTONE_MAP.md) for a panel-by-panel mapping of the SA2 poster to notebooks and figures.
+
+---
+
+## AI Usage
+
+### University of Leeds Policy (OLDA5302M)
+
+Generative AI is classified **Amber** for this module: permitted in an assistive role for specifically designed processes. Permitted uses include research design brainstorming, learning support, code development assistance (library suggestions, syntax, debugging), visualisation suggestions, and documentation support (proofreading, clarity, structure, word count reduction).
+
+AI must not be used to produce the entirety of, or sections of, submitted assessment work.
+
+Per university requirements:
+- AI usage is acknowledged in the SA2 submission with: tool name and version, publisher, URL, and a one-sentence description of context
+- AI usage is mentioned in the SA2 audio narration
+- Prompt and response logs are maintained to demonstrate academic integrity
+
+**Tool used:** Claude Code (Anthropic, `claude-sonnet-4-6`) · https://claude.ai/code
+
+For the University of Leeds' full guidance on generative AI assessment categories, see: https://generative-ai.leeds.ac.uk/ai-and-assessments/categories-of-assessments/
+
+---
+
+### Personal Charter
+
+The Amber policy defines the floor. The following rules define the author's own standard, which is stricter in the analytical domain.
+
+**Rule 1 — Code: Infrastructure is Claude's, Analysis is the Author's**
+
+Claude Code writes and maintains infrastructure and repository operations: git commits, pull requests, repo setup, data download orchestration, utility scaffolding, and documentation. Claude Code does not write analytical code — statistical models, data transformations, index computations, or visualisations that directly embody the research. Every line of analysis code is written by the author and understood well enough to be explained and defended in the SA2 narration. For the analytical work, Claude Code acts as a technical advisor: explaining concepts, debugging code the author has written, and suggesting approaches for the author to evaluate and implement.
+
+**Rule 2 — Literature: Primary Sources First**
+
+Claude Code may suggest relevant papers and discuss material the author has already read. It must not summarise papers as a substitute for reading them. Understanding a source through an AI summary is not the same as understanding it, and in a domain as specific as East Asian monsoon dynamics, the nuance matters.
+
+**Rule 3 — Ideas Must Be the Author's**
+
+Claude Code may help sharpen, restructure, or articulate arguments and writing the author has drafted. It must not generate research framing, analytical conclusions, or poster narrative wholesale. All research questions, modelling decisions, interpretations of results, and conclusions are the author's own.
