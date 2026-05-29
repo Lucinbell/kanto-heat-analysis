@@ -6,6 +6,7 @@ data/*.zip
 data/*.tar
 data/*.gz
 data/raw/
+data/download_manifest.json
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
