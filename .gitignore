@@ -5,6 +5,7 @@ data/*.grb
 data/*.zip
 data/*.tar
 data/*.gz
+data/raw/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
