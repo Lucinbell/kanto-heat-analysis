@@ -1,0 +1,16 @@
+name: kanto-heat
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - jupyterlab=4.5.7
+  - numpy=2.4.6
+  - pandas=3.0.3
+  - xarray=2026.4.0
+  - matplotlib=3.10.9
+  - scipy=1.17.1
+  - netcdf4=1.7.4
+  - cdsapi=0.7.7
+  - pymannkendall=1.4.3
+  - pygam=0.12.0
