@@ -7,6 +7,8 @@ data/*.tar
 data/*.gz
 data/raw/
 data/download_manifest.json
+!data/download_manifest_*.json
+!data/download_shopping_list.json
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
