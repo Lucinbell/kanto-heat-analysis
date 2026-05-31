@@ -94,11 +94,15 @@ def generate_request_manifest(
         area = sec["area"]
         year_start, year_end = sec["year_range"]
         years = [str(y) for y in range(year_start, year_end + 1)]
-        months = [f"{m:02d}" for m in range(1, 13)] if sec["months"] == "all" else sec["months"]
+        all_months = [f"{m:02d}" for m in range(1, 13)] if sec["months"] == "all" else sec["months"]
+        block_size = sec.get("month_block_size", 1)
+        month_blocks = [all_months[i:i + block_size] for i in range(0, len(all_months), block_size)]
         for var in sec["variables"]:
             for year in years:
-                dest_name = f"{var['dest_prefix']}_{year}.nc"
-                all_specs.append((dataset, var["variable"], year, months, area, dest_name, {}))
+                for block in month_blocks:
+                    suffix = block[0] if block_size == 1 else f"{block[0]}_{block[-1]}"
+                    dest_name = f"{var['dest_prefix']}_{year}_{suffix}.nc"
+                    all_specs.append((dataset, var["variable"], year, block, area, dest_name, {}))
 
     if "era5_pressure_levels" in shopping_list:
         sec = shopping_list["era5_pressure_levels"]
@@ -156,7 +160,7 @@ def submit_pending_requests(manifest_path=DEFAULT_MANIFEST):
             request_id = _submit_request(client, entry)
             entry["status"] = "submitted"
             entry["request_id"] = request_id
-            entry["submitted_at"] = datetime.datetime.utcnow().isoformat()
+            entry["submitted_at"] = datetime.datetime.now(datetime.UTC).isoformat()
             entry["error"] = None
             in_flight += 1
             submitted += 1
@@ -203,7 +207,7 @@ def poll_and_download(manifest_path=DEFAULT_MANIFEST):
                 _download_remote(remote, tmp_path)
                 _extract_if_zipped(tmp_path, dest_path)
                 entry["status"] = "complete"
-                entry["completed_at"] = datetime.datetime.utcnow().isoformat()
+                entry["completed_at"] = datetime.datetime.now(datetime.UTC).isoformat()
                 entry["error"] = None
                 downloaded += 1
                 print(f"[orchestrator] Downloaded: {dest_name}")
