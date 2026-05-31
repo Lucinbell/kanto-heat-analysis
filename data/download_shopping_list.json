@@ -3,6 +3,7 @@
     "dataset": "reanalysis-era5-land",
     "area": [37, 138, 35, 141],
     "year_range": [1980, 2024],
+    "month_block_size": 6,
     "months": "all",
     "variables": [
       {
