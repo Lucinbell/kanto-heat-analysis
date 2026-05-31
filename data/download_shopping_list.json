@@ -1,0 +1,47 @@
+{
+  "era5_land": {
+    "dataset": "reanalysis-era5-land",
+    "area": [37, 138, 35, 141],
+    "year_range": [1980, 2024],
+    "months": "all",
+    "variables": [
+      {
+        "variable": "2m_temperature",
+        "dest_prefix": "era5land_2m_temperature"
+      },
+      {
+        "variable": "total_precipitation",
+        "dest_prefix": "era5land_total_precipitation"
+      },
+      {
+        "variable": "volumetric_soil_water_layer_1",
+        "dest_prefix": "era5land_soil_water_layer1",
+        "note": "Q4-pending: confirm SA2 core vs addendum before starting downloads"
+      }
+    ]
+  },
+  "era5_pressure_levels": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "area": [70, 100, 10, 180],
+    "year_range": [1980, 2024],
+    "year_block_size": 9,
+    "months": ["06", "07", "08", "09"],
+    "levels": [
+      {
+        "pressure_level": "500",
+        "variable": ["geopotential"],
+        "dest_prefix": "era5pl_geopotential_500hPa"
+      },
+      {
+        "pressure_level": "200",
+        "variable": ["geopotential"],
+        "dest_prefix": "era5pl_geopotential_200hPa"
+      },
+      {
+        "pressure_level": "850",
+        "variable": ["u_component_of_wind", "v_component_of_wind"],
+        "dest_prefix": "era5pl_uv_wind_850hPa"
+      }
+    ]
+  }
+}

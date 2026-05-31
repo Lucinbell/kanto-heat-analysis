@@ -34,50 +34,14 @@ from ecmwf.datastores import Client as ECMWFClient
 
 REPO_ROOT = pathlib.Path(__file__).parents[1]
 DATA_RAW = REPO_ROOT / "data" / "raw"
-DEFAULT_MANIFEST = REPO_ROOT / "data" / "download_manifest_main.json"
+DEFAULT_MANIFEST      = REPO_ROOT / "data" / "download_manifest_main.json"
+DEFAULT_SHOPPING_LIST = REPO_ROOT / "data" / "download_shopping_list.json"
 SECRETS = REPO_ROOT / ".secrets" / "dylan_wang.cdsapirc"
 
 _DAYS_ALL = [f"{d:02d}" for d in range(1, 32)]
 _HOURS_ALL = [f"{h:02d}:00" for h in range(24)]
 
-# ---------------------------------------------------------------------------
-# Download catalogue
-# ---------------------------------------------------------------------------
-
-# ERA5-Land: 1 variable × 1 year per call (field limit: 12,000).
-# soil_water_layer1 is Q4-pending (SA2 core vs addendum) — remove if deferred.
-_ERA5LAND_CATALOGUE = [
-    {"variable": "2m_temperature",                "dest_prefix": "era5land_2m_temperature"},
-    {"variable": "total_precipitation",           "dest_prefix": "era5land_total_precipitation"},
-    {"variable": "volumetric_soil_water_layer_1", "dest_prefix": "era5land_soil_water_layer1"},
-]
-
-# ERA5 pressure levels: 1 variable-set × 1 level × 9-year block per call.
-# Field arithmetic (JJAS): 122 days × 24 h = 2,928 timesteps/yr × 9 yrs = 26,352
-# fields/variable/level/block — well within the 120,000 field limit.
-_ERA5PL_CATALOGUE = [
-    {"variable": ["geopotential"],                                    "pressure_level": "500", "dest_prefix": "era5pl_geopotential_500hPa"},
-    {"variable": ["geopotential"],                                    "pressure_level": "200", "dest_prefix": "era5pl_geopotential_200hPa"},
-    {"variable": ["u_component_of_wind", "v_component_of_wind"],     "pressure_level": "850", "dest_prefix": "era5pl_uv_wind_850hPa"},
-]
-
-# 45 years split into five 9-year blocks so each call stays within field limits.
-_ERA5PL_YEAR_BLOCKS = [
-    [str(y) for y in range(1980, 1989)],   # 1980–1988
-    [str(y) for y in range(1989, 1998)],   # 1989–1997
-    [str(y) for y in range(1998, 2007)],   # 1998–2006
-    [str(y) for y in range(2007, 2016)],   # 2007–2015
-    [str(y) for y in range(2016, 2025)],   # 2016–2024
-]
-
-_ERA5LAND_YEARS  = [str(y) for y in range(1980, 2025)]
-_ERA5LAND_MONTHS = [f"{m:02d}" for m in range(1, 13)]
-_ERA5LAND_AREA   = [37, 138, 35, 141]     # [N, W, S, E] — Kanto domain
-
-_ERA5PL_MONTHS = ["06", "07", "08", "09"]           # JJAS — covers Baiu + full heat wave season
-_ERA5PL_AREA   = [70, 100, 10, 180]                 # [N, W, S, E] — WNPSH domain
-
-_STATE_FIELDS = ("status", "request_id", "submitted_at", "completed_at", "validated", "error")
+_STATE_FIELDS   = ("status", "request_id", "submitted_at", "completed_at", "validated", "error")
 _STATE_DEFAULTS = ("pending", None, None, None, False, None)
 
 _CDS_FAILURE_STATUSES = {"failed", "error"}
@@ -102,29 +66,55 @@ def _pending_entry(dataset, variable, year, months, area, dest_name, **extra):
 # Phase functions
 # ---------------------------------------------------------------------------
 
-def generate_request_manifest(manifest_path=DEFAULT_MANIFEST, force=False):
-    """Build the download catalogue and write it to manifest_path.
+def generate_request_manifest(
+    shopping_list_path=DEFAULT_SHOPPING_LIST,
+    manifest_path=DEFAULT_MANIFEST,
+    force=False,
+):
+    """Expand a shopping list into a per-request manifest and write it to manifest_path.
 
-    Intended as a one-time authoring step — run once, review, commit.
-    Existing entries are skipped unless force=True, which resets state fields
+    The shopping list (download_shopping_list.json) is the human-authored source of
+    truth for what to download. This function resolves it into one manifest entry per
+    CDS API call, respecting dataset-specific field limits (ERA5-Land: 1 variable x
+    1 year per call; ERA5-PL: variable-set x pressure level x year block per call).
+
+    Intended as a one-time authoring step — run once, review, commit both files.
+    Existing manifest entries are skipped unless force=True, which resets state fields
     only (spec fields are never overwritten).
     """
+    shopping_list = json.loads(pathlib.Path(shopping_list_path).read_text())
     manifest = _load_manifest(manifest_path)
     added = skipped = reset = 0
 
     all_specs = []
-    for spec in _ERA5LAND_CATALOGUE:
-        for year in _ERA5LAND_YEARS:
-            dest_name = f"{spec['dest_prefix']}_{year}.nc"
-            all_specs.append(("reanalysis-era5-land", spec["variable"], year,
-                              _ERA5LAND_MONTHS, _ERA5LAND_AREA, dest_name, {}))
 
-    for spec in _ERA5PL_CATALOGUE:
-        for block in _ERA5PL_YEAR_BLOCKS:
-            dest_name = f"{spec['dest_prefix']}_{block[0]}_{block[-1]}.nc"
-            all_specs.append(("reanalysis-era5-pressure-levels", spec["variable"], block,
-                              _ERA5PL_MONTHS, _ERA5PL_AREA, dest_name,
-                              {"pressure_level": spec["pressure_level"]}))
+    if "era5_land" in shopping_list:
+        sec = shopping_list["era5_land"]
+        dataset = sec["dataset"]
+        area = sec["area"]
+        year_start, year_end = sec["year_range"]
+        years = [str(y) for y in range(year_start, year_end + 1)]
+        months = [f"{m:02d}" for m in range(1, 13)] if sec["months"] == "all" else sec["months"]
+        for var in sec["variables"]:
+            for year in years:
+                dest_name = f"{var['dest_prefix']}_{year}.nc"
+                all_specs.append((dataset, var["variable"], year, months, area, dest_name, {}))
+
+    if "era5_pressure_levels" in shopping_list:
+        sec = shopping_list["era5_pressure_levels"]
+        dataset = sec["dataset"]
+        area = sec["area"]
+        year_start, year_end = sec["year_range"]
+        block_size = sec["year_block_size"]
+        months = sec["months"]
+        all_years = list(range(year_start, year_end + 1))
+        blocks = [[str(y) for y in all_years[i:i + block_size]]
+                  for i in range(0, len(all_years), block_size)]
+        for level in sec["levels"]:
+            for block in blocks:
+                dest_name = f"{level['dest_prefix']}_{block[0]}_{block[-1]}.nc"
+                all_specs.append((dataset, level["variable"], block, months, area, dest_name,
+                                  {"pressure_level": level["pressure_level"]}))
 
     for dataset, variable, year, months, area, dest_name, extra in all_specs:
         if dest_name in manifest:
