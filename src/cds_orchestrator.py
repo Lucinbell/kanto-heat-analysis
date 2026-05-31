@@ -120,6 +120,21 @@ def generate_request_manifest(
                 all_specs.append((dataset, level["variable"], block, months, area, dest_name,
                                   {"pressure_level": level["pressure_level"]}))
 
+    if "era5_single_levels" in shopping_list:
+        sec = shopping_list["era5_single_levels"]
+        dataset = sec["dataset"]
+        area = sec["area"]
+        year_start, year_end = sec["year_range"]
+        block_size = sec["year_block_size"]
+        months = sec["months"]
+        all_years = list(range(year_start, year_end + 1))
+        blocks = [[str(y) for y in all_years[i:i + block_size]]
+                  for i in range(0, len(all_years), block_size)]
+        for var in sec["variables"]:
+            for block in blocks:
+                dest_name = f"{var['dest_prefix']}_{block[0]}_{block[-1]}.nc"
+                all_specs.append((dataset, var["variable"], block, months, area, dest_name, {}))
+
     for dataset, variable, year, months, area, dest_name, extra in all_specs:
         if dest_name in manifest:
             if force:
@@ -475,8 +490,9 @@ def _submit_request(client, entry):
         "area": entry["area"],
         "data_format": "netcdf",
     }
-    if dataset == "reanalysis-era5-pressure-levels":
+    if dataset in ("reanalysis-era5-pressure-levels", "reanalysis-era5-single-levels"):
         params["product_type"] = "reanalysis"
+    if dataset == "reanalysis-era5-pressure-levels":
         params["pressure_level"] = [str(entry["pressure_level"])]
 
     remote = client.submit(dataset, params)
