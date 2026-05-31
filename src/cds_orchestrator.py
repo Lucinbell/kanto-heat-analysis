@@ -52,12 +52,30 @@ _ERA5LAND_CATALOGUE = [
     {"variable": "volumetric_soil_water_layer_1", "dest_prefix": "era5land_soil_water_layer1"},
 ]
 
-# ERA5 pressure levels: populated in Stage 8.
-_ERA5PL_CATALOGUE = []
+# ERA5 pressure levels: 1 variable-set × 1 level × 9-year block per call.
+# Field arithmetic (JJAS): 122 days × 24 h = 2,928 timesteps/yr × 9 yrs = 26,352
+# fields/variable/level/block — well within the 120,000 field limit.
+_ERA5PL_CATALOGUE = [
+    {"variable": ["geopotential"],                                    "pressure_level": "500", "dest_prefix": "era5pl_geopotential_500hPa"},
+    {"variable": ["geopotential"],                                    "pressure_level": "200", "dest_prefix": "era5pl_geopotential_200hPa"},
+    {"variable": ["u_component_of_wind", "v_component_of_wind"],     "pressure_level": "850", "dest_prefix": "era5pl_uv_wind_850hPa"},
+]
+
+# 45 years split into five 9-year blocks so each call stays within field limits.
+_ERA5PL_YEAR_BLOCKS = [
+    [str(y) for y in range(1980, 1989)],   # 1980–1988
+    [str(y) for y in range(1989, 1998)],   # 1989–1997
+    [str(y) for y in range(1998, 2007)],   # 1998–2006
+    [str(y) for y in range(2007, 2016)],   # 2007–2015
+    [str(y) for y in range(2016, 2025)],   # 2016–2024
+]
 
 _ERA5LAND_YEARS  = [str(y) for y in range(1980, 2025)]
 _ERA5LAND_MONTHS = [f"{m:02d}" for m in range(1, 13)]
-_ERA5LAND_AREA   = [37, 138, 35, 141]   # [N, W, S, E] — Kanto domain
+_ERA5LAND_AREA   = [37, 138, 35, 141]     # [N, W, S, E] — Kanto domain
+
+_ERA5PL_MONTHS = ["06", "07", "08", "09"]           # JJAS — covers Baiu + full heat wave season
+_ERA5PL_AREA   = [70, 100, 10, 180]                 # [N, W, S, E] — WNPSH domain
 
 _STATE_FIELDS = ("status", "request_id", "submitted_at", "completed_at", "validated", "error")
 _STATE_DEFAULTS = ("pending", None, None, None, False, None)
@@ -100,6 +118,13 @@ def generate_request_manifest(manifest_path=DEFAULT_MANIFEST, force=False):
             dest_name = f"{spec['dest_prefix']}_{year}.nc"
             all_specs.append(("reanalysis-era5-land", spec["variable"], year,
                               _ERA5LAND_MONTHS, _ERA5LAND_AREA, dest_name, {}))
+
+    for spec in _ERA5PL_CATALOGUE:
+        for block in _ERA5PL_YEAR_BLOCKS:
+            dest_name = f"{spec['dest_prefix']}_{block[0]}_{block[-1]}.nc"
+            all_specs.append(("reanalysis-era5-pressure-levels", spec["variable"], block,
+                              _ERA5PL_MONTHS, _ERA5PL_AREA, dest_name,
+                              {"pressure_level": spec["pressure_level"]}))
 
     for dataset, variable, year, months, area, dest_name, extra in all_specs:
         if dest_name in manifest:
@@ -257,6 +282,68 @@ def validate_downloads(manifest_path=DEFAULT_MANIFEST):
     print(f"[orchestrator] validate_downloads: {validated} validated, "
           f"{failed} failed, {skipped} already validated → {manifest_path}")
     return validated
+
+
+# ---------------------------------------------------------------------------
+# Orchestrator entry point
+# ---------------------------------------------------------------------------
+
+def main(manifest_path=DEFAULT_MANIFEST, force_download=False):
+    """Run one orchestrator cycle: submit pending requests, poll and download
+    ready ones, then validate completed downloads.
+
+    The manifest must already exist (authored via generate_request_manifest()).
+    This function does not create or modify the catalogue — it only advances
+    the state of existing entries.
+
+    Parameters
+    ----------
+    manifest_path : path-like
+        Path to the manifest JSON file.
+    force_download : bool
+        If True, reset all state fields on every entry before running, so the
+        orchestrator re-downloads everything from scratch. Spec fields are never
+        touched. Intended for reproducers who clone the repo and want to
+        re-download the full dataset.
+    """
+    manifest_path = pathlib.Path(manifest_path)
+    if not manifest_path.exists():
+        raise FileNotFoundError(
+            f"Manifest not found: {manifest_path}\n"
+            "Run generate_request_manifest() once to author it."
+        )
+
+    if force_download:
+        manifest = _load_manifest(manifest_path)
+        for entry in manifest.values():
+            for field, default in zip(_STATE_FIELDS, _STATE_DEFAULTS):
+                entry[field] = default
+        _save_manifest(manifest, manifest_path)
+        print(f"[orchestrator] --force-download: reset {len(manifest)} entries to pending")
+
+    submit_pending_requests(manifest_path)
+    poll_and_download(manifest_path)
+    validate_downloads(manifest_path)
+
+
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="CDS download orchestrator — run one cycle against a manifest."
+    )
+    parser.add_argument(
+        "--manifest",
+        default=str(DEFAULT_MANIFEST),
+        help="Path to the manifest JSON file (default: data/download_manifest_main.json)",
+    )
+    parser.add_argument(
+        "--force-download",
+        action="store_true",
+        help="Reset all entries to pending before running (re-downloads everything).",
+    )
+    args = parser.parse_args()
+    main(manifest_path=args.manifest, force_download=args.force_download)
 
 
 # ---------------------------------------------------------------------------
