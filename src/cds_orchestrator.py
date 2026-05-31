@@ -316,26 +316,6 @@ def main(manifest_path=DEFAULT_MANIFEST, force_download=False):
     validate_downloads(manifest_path)
 
 
-if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser(
-        description="CDS download orchestrator — run one cycle against a manifest."
-    )
-    parser.add_argument(
-        "--manifest",
-        default=str(DEFAULT_MANIFEST),
-        help="Path to the manifest JSON file (default: data/download_manifest_main.json)",
-    )
-    parser.add_argument(
-        "--force-download",
-        action="store_true",
-        help="Reset all entries to pending before running (re-downloads everything).",
-    )
-    args = parser.parse_args()
-    main(manifest_path=args.manifest, force_download=args.force_download)
-
-
 # ---------------------------------------------------------------------------
 # Public API
 # ---------------------------------------------------------------------------
@@ -538,3 +518,23 @@ def _save_manifest(manifest, manifest_path=DEFAULT_MANIFEST):
     manifest_path = pathlib.Path(manifest_path)
     manifest_path.parent.mkdir(parents=True, exist_ok=True)
     manifest_path.write_text(json.dumps(manifest, indent=2))
+
+
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="CDS download orchestrator — run one cycle against a manifest."
+    )
+    parser.add_argument(
+        "--manifest",
+        default=str(DEFAULT_MANIFEST),
+        help="Path to the manifest JSON file (default: data/download_manifest_main.json)",
+    )
+    parser.add_argument(
+        "--force-download",
+        action="store_true",
+        help="Reset all entries to pending before running (re-downloads everything).",
+    )
+    args = parser.parse_args()
+    main(manifest_path=args.manifest, force_download=args.force_download)
