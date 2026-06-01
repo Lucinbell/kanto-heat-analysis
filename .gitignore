@@ -32,5 +32,8 @@ CLAUDE.md
 # Sandbox
 sandbox/
 
+# Orchestrator logs
+logs/
+
 # auth tokens
 .secrets/
