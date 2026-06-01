@@ -6,6 +6,7 @@ data/*.zip
 data/*.tar
 data/*.gz
 data/raw/
+data/jma/
 data/download_manifest.json
 !data/download_manifest_*.json
 !data/download_shopping_list.json
