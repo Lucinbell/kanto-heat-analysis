@@ -6,7 +6,11 @@ data/*.zip
 data/*.tar
 data/*.gz
 data/raw/
+data/jma/
 data/download_manifest.json
+!data/download_manifest_*.json
+data/download_manifest_main.json
+!data/download_shopping_list.json
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
@@ -28,6 +32,9 @@ CLAUDE.md
 
 # Sandbox
 sandbox/
+
+# Orchestrator logs
+logs/
 
 # auth tokens
 .secrets/
