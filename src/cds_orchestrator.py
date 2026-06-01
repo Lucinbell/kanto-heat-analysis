@@ -154,7 +154,10 @@ def generate_request_manifest(
 
 
 def submit_pending_requests(manifest_path=DEFAULT_MANIFEST):
-    """Phase 2: submit pending entries up to the CDS concurrent-request limit (2).
+    """Phase 2: submit pending entries up to the CDS queue limit (5).
+
+    CDS processes one request at a time but accepts more in the queue, so we
+    keep up to 5 submitted to avoid idle gaps between completions.
 
     Each submission writes status→submitted, request_id, and submitted_at to the
     manifest, then saves immediately so progress survives across invocations.
@@ -167,7 +170,7 @@ def submit_pending_requests(manifest_path=DEFAULT_MANIFEST):
     submitted = 0
 
     for dest_name, entry in manifest.items():
-        if in_flight >= 2:
+        if in_flight >= 5:
             break
         if entry.get("status") != "pending":
             continue
