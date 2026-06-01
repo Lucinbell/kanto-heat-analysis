@@ -98,11 +98,12 @@ def generate_request_manifest(
         block_size = sec.get("month_block_size", 1)
         month_blocks = [all_months[i:i + block_size] for i in range(0, len(all_months), block_size)]
         for var in sec["variables"]:
+            priority = var.get("priority", 2)
             for year in years:
                 for block in month_blocks:
                     suffix = block[0] if block_size == 1 else f"{block[0]}_{block[-1]}"
                     dest_name = f"{var['dest_prefix']}_{year}_{suffix}.nc"
-                    all_specs.append((dataset, var["variable"], year, block, area, dest_name, {}))
+                    all_specs.append((dataset, var["variable"], year, block, area, dest_name, {}, priority))
 
     if "era5_pressure_levels" in shopping_list:
         sec = shopping_list["era5_pressure_levels"]
@@ -115,10 +116,11 @@ def generate_request_manifest(
         blocks = [[str(y) for y in all_years[i:i + block_size]]
                   for i in range(0, len(all_years), block_size)]
         for level in sec["levels"]:
+            priority = level.get("priority", 2)
             for block in blocks:
                 dest_name = f"{level['dest_prefix']}_{block[0]}_{block[-1]}.nc"
                 all_specs.append((dataset, level["variable"], block, months, area, dest_name,
-                                  {"pressure_level": level["pressure_level"]}))
+                                  {"pressure_level": level["pressure_level"]}, priority))
 
     if "era5_single_levels" in shopping_list:
         sec = shopping_list["era5_single_levels"]
@@ -131,11 +133,14 @@ def generate_request_manifest(
         blocks = [[str(y) for y in all_years[i:i + block_size]]
                   for i in range(0, len(all_years), block_size)]
         for var in sec["variables"]:
+            priority = var.get("priority", 2)
             for block in blocks:
                 dest_name = f"{var['dest_prefix']}_{block[0]}_{block[-1]}.nc"
-                all_specs.append((dataset, var["variable"], block, months, area, dest_name, {}))
+                all_specs.append((dataset, var["variable"], block, months, area, dest_name, {}, priority))
 
-    for dataset, variable, year, months, area, dest_name, extra in all_specs:
+    all_specs.sort(key=lambda s: s[7])
+
+    for dataset, variable, year, months, area, dest_name, extra, _priority in all_specs:
         if dest_name in manifest:
             if force:
                 for field, default in zip(_STATE_FIELDS, _STATE_DEFAULTS):
