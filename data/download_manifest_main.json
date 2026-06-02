@@ -1,0 +1,7952 @@
+{
+  "era5land_2m_temperature_1980_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1980",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1980_01_06.nc",
+    "status": "complete",
+    "request_id": "cf034788-9763-486c-8cde-cc303935e107",
+    "submitted_at": "2026-05-31T08:45:08.471625",
+    "completed_at": "2026-05-31T08:55:59.966070",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1980_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1980",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1980_07_12.nc",
+    "status": "complete",
+    "request_id": "a7b6f005-75be-4e53-916d-9065adb71f99",
+    "submitted_at": "2026-05-31T08:45:11.272309",
+    "completed_at": "2026-05-31T09:05:58.850496",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1981_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1981",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1981_01_06.nc",
+    "status": "complete",
+    "request_id": "fb1fb317-4723-4723-89b2-f95b6aadfb22",
+    "submitted_at": "2026-05-31T09:05:03.962790",
+    "completed_at": "2026-05-31T09:15:16.639678",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1981_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1981",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1981_07_12.nc",
+    "status": "complete",
+    "request_id": "90ff05b4-d236-45bb-b650-d9cef3a86b20",
+    "submitted_at": "2026-05-31T09:15:03.478355",
+    "completed_at": "2026-05-31T09:23:35.927749",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1982_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1982",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1982_01_06.nc",
+    "status": "complete",
+    "request_id": "4af9527b-10ae-4dc4-81f2-f45edef9dd4f",
+    "submitted_at": "2026-05-31T09:25:03.905848",
+    "completed_at": "2026-05-31T09:35:59.187117",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1982_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1982",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1982_07_12.nc",
+    "status": "complete",
+    "request_id": "72c3c8a5-4f54-4402-801f-fb97b7f3b1aa",
+    "submitted_at": "2026-05-31T09:30:03.058291",
+    "completed_at": "2026-05-31T09:45:42.734812",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1983_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1983",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1983_01_06.nc",
+    "status": "complete",
+    "request_id": "fb5bc6f1-3f6a-47e3-b5e3-cf5325d8527f",
+    "submitted_at": "2026-05-31T09:45:03.451315",
+    "completed_at": "2026-05-31T09:55:21.483675",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1983_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1983",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1983_07_12.nc",
+    "status": "complete",
+    "request_id": "7c385224-e52d-4d09-bcd8-aab2e2c0e0b0",
+    "submitted_at": "2026-05-31T09:55:04.924506",
+    "completed_at": "2026-05-31T10:03:25.951618",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1984_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1984",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1984_01_06.nc",
+    "status": "complete",
+    "request_id": "a7c5f5fc-eb5e-4a47-9dcc-3cf62ddc5795",
+    "submitted_at": "2026-05-31T10:05:04.159270",
+    "completed_at": "2026-05-31T10:16:11.213323",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1984_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1984",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1984_07_12.nc",
+    "status": "complete",
+    "request_id": "c698cd82-80d3-4754-84f3-4b1455946f72",
+    "submitted_at": "2026-05-31T10:10:03.603019",
+    "completed_at": "2026-05-31T10:26:14.578109",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1985_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1985",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1985_01_06.nc",
+    "status": "complete",
+    "request_id": "b8154aa9-db11-4a71-ba3f-f20a02cec73e",
+    "submitted_at": "2026-05-31T10:25:03.678984",
+    "completed_at": "2026-05-31T10:35:55.848815",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1985_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1985",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1985_07_12.nc",
+    "status": "complete",
+    "request_id": "7a44d393-38f9-4589-bb1c-fc5b0c9db9be",
+    "submitted_at": "2026-05-31T10:35:03.610089",
+    "completed_at": "2026-05-31T10:46:30.739189",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1986_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1986",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1986_01_06.nc",
+    "status": "complete",
+    "request_id": "5d5fde82-8fb7-4d85-88c5-6dc78821613f",
+    "submitted_at": "2026-05-31T10:45:03.497783",
+    "completed_at": "2026-05-31T10:55:32.986816",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1986_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1986",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1986_07_12.nc",
+    "status": "complete",
+    "request_id": "95a126c8-93e7-4b93-9d1e-cfa6bb9b1049",
+    "submitted_at": "2026-05-31T10:55:03.382940",
+    "completed_at": "2026-05-31T11:04:28.724982",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1987_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1987",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1987_01_06.nc",
+    "status": "complete",
+    "request_id": "50171009-dd21-4a0f-8c75-f85a15f5d881",
+    "submitted_at": "2026-05-31T11:05:03.732491",
+    "completed_at": "2026-05-31T11:13:46.568818",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1987_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1987",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1987_07_12.nc",
+    "status": "complete",
+    "request_id": "5bb6bb87-7aa9-4437-9efe-d5bbe6fc0f2b",
+    "submitted_at": "2026-05-31T11:10:04.862942",
+    "completed_at": "2026-05-31T11:23:50.764303",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1988_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1988",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1988_01_06.nc",
+    "status": "complete",
+    "request_id": "a7995428-8bb6-43e9-8f50-e007c22a9464",
+    "submitted_at": "2026-05-31T11:20:03.734420",
+    "completed_at": "2026-05-31T11:32:33.652132",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1988_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1988",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1988_07_12.nc",
+    "status": "complete",
+    "request_id": "88c8b505-cfd9-4340-a5c7-8b8bed9424b0",
+    "submitted_at": "2026-05-31T11:30:04.640547",
+    "completed_at": "2026-05-31T11:41:52.681691",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1989_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1989",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1989_01_06.nc",
+    "status": "complete",
+    "request_id": "c0dfafc2-753f-4021-95bf-3acaefdfee2c",
+    "submitted_at": "2026-05-31T11:40:04.101599",
+    "completed_at": "2026-05-31T11:50:03.464101",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1989_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1989",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1989_07_12.nc",
+    "status": "complete",
+    "request_id": "fc349df4-db4d-4d05-9532-d21d333b8ecb",
+    "submitted_at": "2026-05-31T11:50:03.923964",
+    "completed_at": "2026-05-31T11:59:43.411958",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1990_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1990",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1990_01_06.nc",
+    "status": "complete",
+    "request_id": "d74a9ea7-030d-4273-b1fe-a2f410e71b74",
+    "submitted_at": "2026-05-31T11:55:03.473924",
+    "completed_at": "2026-05-31T12:09:20.276163",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1990_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1990",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1990_07_12.nc",
+    "status": "complete",
+    "request_id": "254352d9-1987-48b7-b0c0-e81f58512df3",
+    "submitted_at": "2026-05-31T12:05:04.022343",
+    "completed_at": "2026-05-31T12:18:32.815035",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1991_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1991",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1991_01_06.nc",
+    "status": "complete",
+    "request_id": "3e56b139-1bc6-4ea2-8f2e-7220264329b4",
+    "submitted_at": "2026-05-31T12:15:03.633293",
+    "completed_at": "2026-05-31T12:28:18.751136",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1991_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1991",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1991_07_12.nc",
+    "status": "complete",
+    "request_id": "10227159-1fba-4d7c-9b90-7b617ffca3bc",
+    "submitted_at": "2026-05-31T12:25:03.467590",
+    "completed_at": "2026-05-31T12:37:21.691002",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1992_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1992",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1992_01_06.nc",
+    "status": "complete",
+    "request_id": "e2962c39-5b3f-4586-8c9f-9203f4cbd29c",
+    "submitted_at": "2026-05-31T12:35:04.020015",
+    "completed_at": "2026-05-31T12:46:37.553285",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1992_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1992",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1992_07_12.nc",
+    "status": "complete",
+    "request_id": "6fb090a3-a2a4-4855-ba15-6569e27954d3",
+    "submitted_at": "2026-05-31T12:45:03.975055",
+    "completed_at": "2026-05-31T12:56:53.818097",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1993_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1993",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1993_01_06.nc",
+    "status": "complete",
+    "request_id": "a689ac2f-971e-4b8a-8c91-1d5f7a4d6cbd",
+    "submitted_at": "2026-05-31T12:55:03.907640",
+    "completed_at": "2026-05-31T13:04:45.900398",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1993_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1993",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1993_07_12.nc",
+    "status": "complete",
+    "request_id": "1cb5075e-24c3-4b92-a2c4-6a47ba441c1f",
+    "submitted_at": "2026-05-31T13:05:04.268688",
+    "completed_at": "2026-05-31T13:15:02.586678",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1994_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1994",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1994_01_06.nc",
+    "status": "complete",
+    "request_id": "020e34ca-fe82-4d3c-80b0-da4a3a42268c",
+    "submitted_at": "2026-05-31T13:10:03.744352",
+    "completed_at": "2026-05-31T13:24:44.239417",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1994_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1994",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1994_07_12.nc",
+    "status": "complete",
+    "request_id": "3e65cd8a-a3f9-4829-a19c-0902d44a6839",
+    "submitted_at": "2026-05-31T13:20:04.060087",
+    "completed_at": "2026-05-31T13:33:23.190407",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1995_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1995",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1995_01_06.nc",
+    "status": "complete",
+    "request_id": "1b668854-6a39-4915-ba88-3ae4eee8cfa1",
+    "submitted_at": "2026-05-31T13:30:04.288499",
+    "completed_at": "2026-05-31T13:42:21.326943",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1995_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1995",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1995_07_12.nc",
+    "status": "complete",
+    "request_id": "1e9befee-7203-4d69-8985-fe2ae24c1d06",
+    "submitted_at": "2026-05-31T13:40:05.808466",
+    "completed_at": "2026-05-31T13:52:07.366889",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1996_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1996",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1996_01_06.nc",
+    "status": "complete",
+    "request_id": "58b65c95-dd2e-45e2-b3ff-aa59c3882bcd",
+    "submitted_at": "2026-05-31T13:50:03.923617",
+    "completed_at": "2026-05-31T14:01:23.263454",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1996_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1996",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1996_07_12.nc",
+    "status": "complete",
+    "request_id": "235adc57-2fab-4e17-8396-1a427b61e7dc",
+    "submitted_at": "2026-05-31T14:00:04.127643",
+    "completed_at": "2026-05-31T14:10:01.474848",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1997_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1997",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1997_01_06.nc",
+    "status": "complete",
+    "request_id": "073a401b-2ee6-4d7d-bb76-aa031d7e7be1",
+    "submitted_at": "2026-05-31T14:10:06.462574",
+    "completed_at": "2026-05-31T14:20:16.054403",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1997_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1997",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1997_07_12.nc",
+    "status": "complete",
+    "request_id": "9b7f15d2-484f-4125-a646-2bfed407f970",
+    "submitted_at": "2026-05-31T14:15:06.665449",
+    "completed_at": "2026-05-31T14:29:35.650187",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1998_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1998",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1998_01_06.nc",
+    "status": "complete",
+    "request_id": "3b281e53-ac96-4fe1-8f77-e11648c8ae10",
+    "submitted_at": "2026-05-31T14:30:03.724211",
+    "completed_at": "2026-05-31T14:58:00.502407",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1998_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1998",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1998_07_12.nc",
+    "status": "complete",
+    "request_id": "d95a5527-dcda-47cc-b0c0-34023f0da7c4",
+    "submitted_at": "2026-05-31T14:35:03.230005",
+    "completed_at": "2026-05-31T14:47:50.773082",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1999_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1999",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1999_01_06.nc",
+    "status": "complete",
+    "request_id": "7b837900-34f3-4d05-bbfd-e9cee9b5fd39",
+    "submitted_at": "2026-05-31T14:55:04.071531",
+    "completed_at": "2026-05-31T15:07:36.735883",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_1999_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "1999",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_1999_07_12.nc",
+    "status": "complete",
+    "request_id": "0a1e5c01-c1c7-436a-b309-21de4b868aa8",
+    "submitted_at": "2026-05-31T15:05:04.059434",
+    "completed_at": "2026-05-31T15:16:01.820473",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2000_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2000",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2000_01_06.nc",
+    "status": "complete",
+    "request_id": "2243ea17-1c7b-4af7-965a-0a8721e84315",
+    "submitted_at": "2026-05-31T15:15:03.490742",
+    "completed_at": "2026-05-31T15:25:09.676032",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2000_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2000",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2000_07_12.nc",
+    "status": "complete",
+    "request_id": "21ba774e-cb89-4bcf-9e0f-5661c4ca2433",
+    "submitted_at": "2026-05-31T15:25:03.841565",
+    "completed_at": "2026-05-31T15:34:34.780642",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2001_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2001",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2001_01_06.nc",
+    "status": "complete",
+    "request_id": "9f539303-0c28-4d6f-a9cb-4e949f301a98",
+    "submitted_at": "2026-05-31T15:35:04.235851",
+    "completed_at": "2026-05-31T15:44:48.997165",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2001_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2001",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2001_07_12.nc",
+    "status": "complete",
+    "request_id": "7533f7a5-4506-416c-bdb6-175cff035733",
+    "submitted_at": "2026-05-31T15:40:05.951044",
+    "completed_at": "2026-05-31T15:54:35.046579",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2002_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2002",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2002_01_06.nc",
+    "status": "complete",
+    "request_id": "e77faf51-f389-4c16-9516-c4a4f741d9cc",
+    "submitted_at": "2026-05-31T15:50:04.565085",
+    "completed_at": "2026-05-31T16:03:07.948255",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2002_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2002",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2002_07_12.nc",
+    "status": "complete",
+    "request_id": "c35bf7fc-5e6f-4c63-b7cc-c8cd65de8e38",
+    "submitted_at": "2026-05-31T16:00:03.716810",
+    "completed_at": "2026-05-31T16:11:30.661573",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2003_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2003",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2003_01_06.nc",
+    "status": "complete",
+    "request_id": "e0e65f65-e975-4bd1-ba5d-74f248ad9e51",
+    "submitted_at": "2026-05-31T16:10:03.962932",
+    "completed_at": "2026-05-31T16:21:17.782740",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2003_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2003",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2003_07_12.nc",
+    "status": "complete",
+    "request_id": "ed556b05-8692-4d0d-99e3-ffff2eba60fd",
+    "submitted_at": "2026-05-31T16:20:03.370703",
+    "completed_at": "2026-05-31T16:29:57.846375",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2004_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2004",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2004_01_06.nc",
+    "status": "complete",
+    "request_id": "f04fbd1c-6451-453e-a6f3-d91f0d248076",
+    "submitted_at": "2026-05-31T16:30:03.795903",
+    "completed_at": "2026-05-31T16:39:33.530141",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2004_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2004",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2004_07_12.nc",
+    "status": "complete",
+    "request_id": "bd4064b6-4d0a-4132-8082-0dc88e7a517e",
+    "submitted_at": "2026-05-31T16:35:03.191994",
+    "completed_at": "2026-05-31T16:49:28.821277",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2005_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2005",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2005_01_06.nc",
+    "status": "complete",
+    "request_id": "93161132-6a83-4fbc-9155-82cd904c9c93",
+    "submitted_at": "2026-05-31T16:45:04.809431",
+    "completed_at": "2026-05-31T16:58:50.476093",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2005_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2005",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2005_07_12.nc",
+    "status": "complete",
+    "request_id": "72ce55e7-1e38-4804-ba6d-6cdb5febe16a",
+    "submitted_at": "2026-05-31T16:55:04.127461",
+    "completed_at": "2026-05-31T17:10:41.040364",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2006_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2006",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2006_01_06.nc",
+    "status": "complete",
+    "request_id": "b107e873-e624-4219-a920-ee4223fdb922",
+    "submitted_at": "2026-05-31T17:05:03.469723",
+    "completed_at": "2026-05-31T17:19:15.427211",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2006_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2006",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2006_07_12.nc",
+    "status": "complete",
+    "request_id": "eeba4b60-e9e2-4f42-bdfd-efb87fc94ba6",
+    "submitted_at": "2026-05-31T17:20:03.953922",
+    "completed_at": "2026-05-31T17:29:32.965023",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2007_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2007",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2007_01_06.nc",
+    "status": "complete",
+    "request_id": "6b32e216-0a1a-4def-abf1-bdbb04f2b148",
+    "submitted_at": "2026-05-31T17:25:03.466700",
+    "completed_at": "2026-05-31T17:38:43.201754",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2007_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2007",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2007_07_12.nc",
+    "status": "complete",
+    "request_id": "28b10ddc-af86-4a97-b2fe-ada0887c2a7e",
+    "submitted_at": "2026-05-31T17:35:04.241030",
+    "completed_at": "2026-05-31T17:49:13.286371",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2008_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2008",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2008_01_06.nc",
+    "status": "complete",
+    "request_id": "66944838-45ec-429d-bec5-0eb78bd583e5",
+    "submitted_at": "2026-05-31T17:45:03.733201",
+    "completed_at": "2026-05-31T17:58:02.381104",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2008_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2008",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2008_07_12.nc",
+    "status": "complete",
+    "request_id": "c35852da-bea3-467c-9cc9-a5f5d910e734",
+    "submitted_at": "2026-05-31T17:55:08.669027",
+    "completed_at": "2026-05-31T18:07:58.996489",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2009_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2009",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2009_01_06.nc",
+    "status": "complete",
+    "request_id": "998dd1ad-b0cd-47e4-b068-bcc1bad548ad",
+    "submitted_at": "2026-05-31T18:05:03.409204",
+    "completed_at": "2026-05-31T18:17:12.108226",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2009_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2009",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2009_07_12.nc",
+    "status": "complete",
+    "request_id": "2b81971b-7ac0-4889-987c-bf5399885ea7",
+    "submitted_at": "2026-05-31T18:15:04.470098",
+    "completed_at": "2026-05-31T18:26:45.603964",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2010_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2010",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2010_01_06.nc",
+    "status": "complete",
+    "request_id": "147720c8-3d55-406e-8c6e-18956871809a",
+    "submitted_at": "2026-05-31T18:25:03.438412",
+    "completed_at": "2026-05-31T18:37:54.514722",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2010_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2010",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2010_07_12.nc",
+    "status": "complete",
+    "request_id": "bde098c5-56f2-424d-ab67-916730ac9530",
+    "submitted_at": "2026-05-31T18:35:03.303318",
+    "completed_at": "2026-05-31T18:46:47.336887",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2011_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2011",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2011_01_06.nc",
+    "status": "complete",
+    "request_id": "5145e90e-223c-4a99-bf3a-3d16bbc73a5f",
+    "submitted_at": "2026-05-31T18:45:03.341640",
+    "completed_at": "2026-05-31T18:54:30.774492",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2011_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2011",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2011_07_12.nc",
+    "status": "complete",
+    "request_id": "3085ca3b-1b96-4cb9-94b4-9efe70a504f2",
+    "submitted_at": "2026-05-31T18:55:03.326646",
+    "completed_at": "2026-05-31T19:04:25.270209",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2012_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2012",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2012_01_06.nc",
+    "status": "complete",
+    "request_id": "4b12f862-366d-448a-8446-2c723d4bccda",
+    "submitted_at": "2026-05-31T19:00:03.971567",
+    "completed_at": "2026-05-31T19:13:16.074086",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2012_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2012",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2012_07_12.nc",
+    "status": "complete",
+    "request_id": "9da4486a-9210-4ff5-b3de-0e40a6bb0034",
+    "submitted_at": "2026-05-31T19:10:03.488588",
+    "completed_at": "2026-05-31T19:22:51.432876",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2013_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2013",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2013_01_06.nc",
+    "status": "complete",
+    "request_id": "5d088115-3833-4890-80b8-9e81b7ce821e",
+    "submitted_at": "2026-05-31T19:20:04.229605",
+    "completed_at": "2026-05-31T19:32:16.944796",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2013_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2013",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2013_07_12.nc",
+    "status": "complete",
+    "request_id": "6c9160a1-aa84-4f09-98c3-4be07525ddf1",
+    "submitted_at": "2026-05-31T19:30:04.026207",
+    "completed_at": "2026-05-31T19:41:33.927530",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2014_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2014",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2014_01_06.nc",
+    "status": "complete",
+    "request_id": "f080523c-bb85-458c-8ca2-1197f90b9342",
+    "submitted_at": "2026-05-31T19:40:03.530926",
+    "completed_at": "2026-05-31T19:52:16.334159",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2014_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2014",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2014_07_12.nc",
+    "status": "complete",
+    "request_id": "7f2c0620-4d27-400f-813d-098ca28dd878",
+    "submitted_at": "2026-05-31T19:50:04.965993",
+    "completed_at": "2026-05-31T20:01:56.204049",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2015_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2015",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2015_01_06.nc",
+    "status": "complete",
+    "request_id": "1df65ca1-fcbb-46e9-93f2-a5378099aeaa",
+    "submitted_at": "2026-05-31T20:00:05.692598",
+    "completed_at": "2026-05-31T20:11:45.074036",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2015_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2015",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2015_07_12.nc",
+    "status": "complete",
+    "request_id": "5adfaa19-69b6-4659-b1b2-f3d277832811",
+    "submitted_at": "2026-05-31T20:10:03.784928",
+    "completed_at": "2026-05-31T20:21:31.720373",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2016_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2016",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2016_01_06.nc",
+    "status": "complete",
+    "request_id": "aa82cc09-fde5-405d-afc7-b503273b345e",
+    "submitted_at": "2026-05-31T20:20:03.602869",
+    "completed_at": "2026-05-31T20:34:42.911759",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2016_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2016",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2016_07_12.nc",
+    "status": "complete",
+    "request_id": "6c9dc6f4-3df9-41c0-83d9-7ade1d94f9cb",
+    "submitted_at": "2026-05-31T20:30:04.062356",
+    "completed_at": "2026-05-31T20:43:53.342799",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2017_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2017",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2017_01_06.nc",
+    "status": "complete",
+    "request_id": "81f1b64e-ee05-4275-a42a-4ce9d459297d",
+    "submitted_at": "2026-05-31T20:40:04.683602",
+    "completed_at": "2026-05-31T20:53:58.626915",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2017_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2017",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2017_07_12.nc",
+    "status": "complete",
+    "request_id": "3227889c-a2ef-44f6-b864-72efeadd9f90",
+    "submitted_at": "2026-05-31T20:50:03.618777",
+    "completed_at": "2026-05-31T21:02:49.344668",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2018_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2018",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2018_01_06.nc",
+    "status": "complete",
+    "request_id": "664374bd-8019-4c11-9003-015faa3ff6b6",
+    "submitted_at": "2026-05-31T21:00:03.780489",
+    "completed_at": "2026-05-31T21:15:09.992449",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2018_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2018",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2018_07_12.nc",
+    "status": "complete",
+    "request_id": "3ec9b97f-b3be-4ba9-bed8-cd1ab56e9bdb",
+    "submitted_at": "2026-05-31T21:10:04.186599",
+    "completed_at": "2026-05-31T21:28:46.782337",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2019_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2019",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2019_01_06.nc",
+    "status": "complete",
+    "request_id": "c02d27c8-5225-4e49-b9dc-3f61a3c2c4a5",
+    "submitted_at": "2026-05-31T21:25:03.987643",
+    "completed_at": "2026-05-31T21:37:51.022541",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2019_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2019",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2019_07_12.nc",
+    "status": "complete",
+    "request_id": "bfe768db-4de1-43d1-bd0e-82c08e57ab58",
+    "submitted_at": "2026-05-31T21:35:04.090172",
+    "completed_at": "2026-05-31T21:51:11.552330",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2020_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2020",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2020_01_06.nc",
+    "status": "complete",
+    "request_id": "36dc7fc2-6df0-4b27-b977-8bbeb6cadad1",
+    "submitted_at": "2026-05-31T21:45:03.619773",
+    "completed_at": "2026-05-31T22:01:11.825175",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2020_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2020",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2020_07_12.nc",
+    "status": "complete",
+    "request_id": "069dad13-84a7-4047-8728-f1a472617262",
+    "submitted_at": "2026-05-31T22:00:03.888708",
+    "completed_at": "2026-05-31T22:11:01.268108",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2021_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2021",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2021_01_06.nc",
+    "status": "complete",
+    "request_id": "11cce7f2-102a-4100-9839-2e4db6755fb9",
+    "submitted_at": "2026-05-31T22:10:03.529842",
+    "completed_at": "2026-05-31T22:21:06.233949",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2021_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2021",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2021_07_12.nc",
+    "status": "complete",
+    "request_id": "c8a70cd9-0abb-4559-931b-a9a4cc382a64",
+    "submitted_at": "2026-05-31T22:20:04.356735",
+    "completed_at": "2026-05-31T22:40:00.473682",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2022_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2022",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2022_01_06.nc",
+    "status": "complete",
+    "request_id": "73e95017-b5f4-4ee2-87f7-18ca2b843ff1",
+    "submitted_at": "2026-05-31T22:30:03.593691",
+    "completed_at": "2026-05-31T22:56:31.626416",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2022_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2022",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2022_07_12.nc",
+    "status": "complete",
+    "request_id": "e78488de-2de5-4ac8-ace9-3a4b433a47c2",
+    "submitted_at": "2026-05-31T22:45:03.309877",
+    "completed_at": "2026-05-31T23:07:54.299773",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2023_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2023",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2023_01_06.nc",
+    "status": "complete",
+    "request_id": "eaca9ab0-ae4d-4c24-8df4-290eaa330feb",
+    "submitted_at": "2026-05-31T23:05:03.966521",
+    "completed_at": "2026-05-31T23:19:08.193299",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2023_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2023",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2023_07_12.nc",
+    "status": "complete",
+    "request_id": "60d45f00-49c1-427b-a8c5-6216c80588c1",
+    "submitted_at": "2026-05-31T23:15:03.642307",
+    "completed_at": "2026-05-31T23:28:23.528889",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2024_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2024",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2024_01_06.nc",
+    "status": "complete",
+    "request_id": "12f26882-770e-4cfc-869c-044c522dc6b4",
+    "submitted_at": "2026-05-31T23:25:03.768024",
+    "completed_at": "2026-05-31T23:47:21.491970",
+    "validated": true,
+    "error": null
+  },
+  "era5land_2m_temperature_2024_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "2m_temperature",
+    "year": "2024",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_2m_temperature_2024_07_12.nc",
+    "status": "complete",
+    "request_id": "e78cd372-2b6f-4bcd-adf6-4577d7179062",
+    "submitted_at": "2026-05-31T23:35:03.733799",
+    "completed_at": "2026-05-31T23:56:23.413361",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1980_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1980",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1980_01_06.nc",
+    "status": "complete",
+    "request_id": "cb63d071-d6ef-4c2a-8c26-332662d89e69",
+    "submitted_at": "2026-05-31T23:55:04.888442",
+    "completed_at": "2026-06-01T02:46:25.390159",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1980_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1980",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1980_07_12.nc",
+    "status": "complete",
+    "request_id": "3cdad921-972f-4893-8dc6-b0dd3f5a29f2",
+    "submitted_at": "2026-06-01T00:05:03.071354",
+    "completed_at": "2026-06-01T02:57:01.730083",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1981_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1981",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1981_01_06.nc",
+    "status": "complete",
+    "request_id": "fd4b3845-c2e0-49f0-ba69-591fc448a8e4",
+    "submitted_at": "2026-06-01T02:55:03.201211",
+    "completed_at": "2026-06-01T04:06:48.043247",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1981_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1981",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1981_07_12.nc",
+    "status": "complete",
+    "request_id": "77f474b9-b2fe-4b2d-aa09-865640a625e4",
+    "submitted_at": "2026-06-01T03:05:03.788095",
+    "completed_at": "2026-06-01T04:28:12.529342",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1982_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1982",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1982_01_06.nc",
+    "status": "complete",
+    "request_id": "5468a9f1-b31d-4ef8-8cd4-0907f8169ea2",
+    "submitted_at": "2026-06-01T04:15:03.819429",
+    "completed_at": "2026-06-01T05:50:47.611802",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1982_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1982",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1982_07_12.nc",
+    "status": "complete",
+    "request_id": "bdfebf25-268d-4ed0-9cb1-a2d4baf50c88",
+    "submitted_at": "2026-06-01T06:07:45.665336+00:00",
+    "completed_at": "2026-06-01T06:25:18.842335+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1983_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1983",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1983_01_06.nc",
+    "status": "complete",
+    "request_id": "7f0a0666-fdfc-4767-9e51-84273144391e",
+    "submitted_at": "2026-06-01T06:07:46.521222+00:00",
+    "completed_at": "2026-06-01T07:45:14.890617+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1983_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1983",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1983_07_12.nc",
+    "status": "complete",
+    "request_id": "2bc25d37-9394-462c-8810-30704816e0a5",
+    "submitted_at": "2026-06-01T06:30:03.312776+00:00",
+    "completed_at": "2026-06-01T08:55:12.627388+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1984_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1984",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1984_01_06.nc",
+    "status": "complete",
+    "request_id": "a8de44bd-34d6-46b8-8f8b-aa00695aa268",
+    "submitted_at": "2026-06-01T07:50:03.323230+00:00",
+    "completed_at": "2026-06-01T11:10:11.925754+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1984_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1984",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1984_07_12.nc",
+    "status": "complete",
+    "request_id": "337e91a8-7695-49d0-a830-35cdefcee347",
+    "submitted_at": "2026-06-01T07:55:03.567226+00:00",
+    "completed_at": "2026-06-01T11:55:11.869145+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1985_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1985",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1985_01_06.nc",
+    "status": "complete",
+    "request_id": "9807da20-6be4-459a-aeec-f9c8ce7189c2",
+    "submitted_at": "2026-06-01T07:55:04.238487+00:00",
+    "completed_at": "2026-06-01T12:15:12.644153+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1985_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1985",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1985_07_12.nc",
+    "status": "complete",
+    "request_id": "2679b65d-8d4a-4697-b0a1-d28069245d3f",
+    "submitted_at": "2026-06-01T07:55:07.691481+00:00",
+    "completed_at": "2026-06-01T12:30:26.549878+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1986_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1986",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1986_01_06.nc",
+    "status": "complete",
+    "request_id": "bd5e85b5-83e8-4e50-894b-b66c14d1045a",
+    "submitted_at": "2026-06-01T09:00:03.535278+00:00",
+    "completed_at": "2026-06-01T14:05:12.906176+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1986_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1986",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1986_07_12.nc",
+    "status": "complete",
+    "request_id": "b2210f3c-2ef1-47b0-b7a1-7d06733eb077",
+    "submitted_at": "2026-06-01T11:15:04.091981+00:00",
+    "completed_at": "2026-06-01T15:40:12.017530+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1987_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1987",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1987_01_06.nc",
+    "status": "complete",
+    "request_id": "93586f94-d490-48d6-b054-803a65b39572",
+    "submitted_at": "2026-06-01T12:00:03.698944+00:00",
+    "completed_at": "2026-06-01T16:10:18.784958+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1987_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1987",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1987_07_12.nc",
+    "status": "complete",
+    "request_id": "c4361824-6352-40a1-8197-36feccc88eb1",
+    "submitted_at": "2026-06-01T12:20:05.916084+00:00",
+    "completed_at": "2026-06-01T17:05:12.871470+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1988_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1988",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1988_01_06.nc",
+    "status": "complete",
+    "request_id": "4d89612f-0958-4f21-a499-12ebab044791",
+    "submitted_at": "2026-06-01T12:35:03.667956+00:00",
+    "completed_at": "2026-06-01T17:20:12.325758+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1988_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1988",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1988_07_12.nc",
+    "status": "complete",
+    "request_id": "deeaff1a-7f62-4663-9895-206f2e7e8446",
+    "submitted_at": "2026-06-01T14:10:04.465549+00:00",
+    "completed_at": "2026-06-01T18:25:14.414975+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1989_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1989",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1989_01_06.nc",
+    "status": "complete",
+    "request_id": "0baea426-b31b-4370-b303-cfb714baf622",
+    "submitted_at": "2026-06-01T15:45:04.091044+00:00",
+    "completed_at": "2026-06-01T19:10:13.179167+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1989_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1989",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1989_07_12.nc",
+    "status": "complete",
+    "request_id": "edec860d-5340-4d31-9605-3c98f91d7e19",
+    "submitted_at": "2026-06-01T16:15:03.941523+00:00",
+    "completed_at": "2026-06-01T19:35:46.193614+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1990_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1990",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1990_01_06.nc",
+    "status": "complete",
+    "request_id": "c8a98711-242f-44fc-a506-a9ccc2dd5a68",
+    "submitted_at": "2026-06-01T17:10:03.902869+00:00",
+    "completed_at": "2026-06-01T21:15:13.112743+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1990_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1990",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1990_07_12.nc",
+    "status": "complete",
+    "request_id": "5972ae05-9d95-4be3-b2c3-7e11f6c45acf",
+    "submitted_at": "2026-06-01T17:25:06.723767+00:00",
+    "completed_at": "2026-06-01T21:25:12.044372+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1991_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1991",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1991_01_06.nc",
+    "status": "complete",
+    "request_id": "3fa2cc8a-b938-4c88-805e-ceafca6bf21e",
+    "submitted_at": "2026-06-01T18:30:03.626005+00:00",
+    "completed_at": "2026-06-01T21:55:13.192999+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1991_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1991",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1991_07_12.nc",
+    "status": "complete",
+    "request_id": "0c6c4889-9a11-43dc-9765-36a2fa50680f",
+    "submitted_at": "2026-06-01T19:15:03.912562+00:00",
+    "completed_at": "2026-06-01T22:30:21.148526+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1992_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1992",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1992_01_06.nc",
+    "status": "complete",
+    "request_id": "a25bc5e1-9c2f-4c46-9d92-4a23960a552f",
+    "submitted_at": "2026-06-01T19:40:03.614371+00:00",
+    "completed_at": "2026-06-01T22:40:12.301158+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1992_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1992",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1992_07_12.nc",
+    "status": "complete",
+    "request_id": "afac29ab-bc17-4303-ae90-6f877e6a1a89",
+    "submitted_at": "2026-06-01T21:20:04.889367+00:00",
+    "completed_at": "2026-06-01T23:45:13.110929+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1993_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1993",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1993_01_06.nc",
+    "status": "complete",
+    "request_id": "a046bcee-6ad4-42e3-a447-6bd384b8aba9",
+    "submitted_at": "2026-06-01T21:30:04.387489+00:00",
+    "completed_at": "2026-06-02T00:00:16.414220+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1993_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1993",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1993_07_12.nc",
+    "status": "complete",
+    "request_id": "62df9393-04d4-4087-822d-fdb51b389733",
+    "submitted_at": "2026-06-01T22:00:03.459703+00:00",
+    "completed_at": "2026-06-02T00:15:16.907446+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1994_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1994",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1994_01_06.nc",
+    "status": "complete",
+    "request_id": "21a8e0a2-f1e2-4226-b965-d969c5f26b24",
+    "submitted_at": "2026-06-01T22:35:03.514747+00:00",
+    "completed_at": "2026-06-02T01:00:12.427462+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1994_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1994",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1994_07_12.nc",
+    "status": "complete",
+    "request_id": "60aa9e86-d305-4bbc-ad37-d35c52997d4e",
+    "submitted_at": "2026-06-01T22:45:08.183109+00:00",
+    "completed_at": "2026-06-02T01:15:16.115551+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1995_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1995",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1995_01_06.nc",
+    "status": "complete",
+    "request_id": "4f1453a2-f0ac-40c1-84dd-f9aec074c5e6",
+    "submitted_at": "2026-06-01T23:50:03.500582+00:00",
+    "completed_at": "2026-06-02T01:35:12.461990+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1995_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1995",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1995_07_12.nc",
+    "status": "complete",
+    "request_id": "3709afc2-8d4c-425a-8298-962c83e0b7c2",
+    "submitted_at": "2026-06-02T00:05:03.663313+00:00",
+    "completed_at": "2026-06-02T01:50:12.746487+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1996_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1996",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1996_01_06.nc",
+    "status": "complete",
+    "request_id": "702870a4-5192-464c-bd4d-a83748221a6a",
+    "submitted_at": "2026-06-02T00:20:03.905481+00:00",
+    "completed_at": "2026-06-02T02:05:14.132265+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1996_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1996",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1996_07_12.nc",
+    "status": "complete",
+    "request_id": "483691da-b16d-4445-b1b4-c3543e63c4b9",
+    "submitted_at": "2026-06-02T01:05:05.479652+00:00",
+    "completed_at": "2026-06-02T02:30:15.290954+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1997_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1997",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1997_01_06.nc",
+    "status": "complete",
+    "request_id": "9867b1ca-3e62-40a4-8da7-6bf8074f5289",
+    "submitted_at": "2026-06-02T01:20:06.950940+00:00",
+    "completed_at": "2026-06-02T03:00:15.425703+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1997_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1997",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1997_07_12.nc",
+    "status": "complete",
+    "request_id": "74dee749-1803-41bc-91cc-86ba91a3dd0c",
+    "submitted_at": "2026-06-02T01:40:03.675488+00:00",
+    "completed_at": "2026-06-02T03:15:13.600351+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1998_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1998",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1998_01_06.nc",
+    "status": "complete",
+    "request_id": "373406ea-8df6-423a-ad82-85de799cbedf",
+    "submitted_at": "2026-06-02T01:55:03.355322+00:00",
+    "completed_at": "2026-06-02T03:25:15.070425+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1998_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1998",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1998_07_12.nc",
+    "status": "complete",
+    "request_id": "4bfa6ead-68c8-4535-9df7-4eda329d659b",
+    "submitted_at": "2026-06-02T02:10:03.299699+00:00",
+    "completed_at": "2026-06-02T03:55:12.363586+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1999_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1999",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1999_01_06.nc",
+    "status": "complete",
+    "request_id": "bdf6ddb5-a575-4c2b-9a4b-72501dbf0e91",
+    "submitted_at": "2026-06-02T02:35:05.411073+00:00",
+    "completed_at": "2026-06-02T04:40:11.598923+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_1999_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "1999",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_1999_07_12.nc",
+    "status": "complete",
+    "request_id": "1032ce42-2ef5-4ad6-9d0e-1df88fe4cd9e",
+    "submitted_at": "2026-06-02T03:05:03.761085+00:00",
+    "completed_at": "2026-06-02T05:10:11.741148+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2000_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2000",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2000_01_06.nc",
+    "status": "complete",
+    "request_id": "897e5519-2a84-4072-9fa2-093058229989",
+    "submitted_at": "2026-06-02T03:20:03.277700+00:00",
+    "completed_at": "2026-06-02T05:25:14.638102+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2000_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2000",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2000_07_12.nc",
+    "status": "complete",
+    "request_id": "466b4207-947a-47b0-9507-1ea0bb05b2d5",
+    "submitted_at": "2026-06-02T03:30:06.338029+00:00",
+    "completed_at": "2026-06-02T06:20:15.477053+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2001_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2001",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2001_01_06.nc",
+    "status": "complete",
+    "request_id": "65d4f288-6b22-4f53-9673-43e590b32e42",
+    "submitted_at": "2026-06-02T04:00:03.350125+00:00",
+    "completed_at": "2026-06-02T06:40:15.231971+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2001_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2001",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2001_07_12.nc",
+    "status": "complete",
+    "request_id": "56cb0ec5-def5-4cae-945d-cbd6e5bd4da9",
+    "submitted_at": "2026-06-02T04:45:03.945327+00:00",
+    "completed_at": "2026-06-02T07:10:16.922265+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2002_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2002",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2002_01_06.nc",
+    "status": "complete",
+    "request_id": "86cf891a-89e5-443f-894e-428970c059a1",
+    "submitted_at": "2026-06-02T05:15:04.126811+00:00",
+    "completed_at": "2026-06-02T08:00:15.902086+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2002_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2002",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2002_07_12.nc",
+    "status": "complete",
+    "request_id": "12f0a8cf-118c-4624-ba61-c19f66c1d3de",
+    "submitted_at": "2026-06-02T05:30:04.776288+00:00",
+    "completed_at": "2026-06-02T08:20:12.024352+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2003_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2003",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2003_01_06.nc",
+    "status": "complete",
+    "request_id": "fa1a4eda-7f19-4e1c-adf6-2359ddf96698",
+    "submitted_at": "2026-06-02T06:25:06.168813+00:00",
+    "completed_at": "2026-06-02T08:40:13.643075+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2003_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2003",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2003_07_12.nc",
+    "status": "complete",
+    "request_id": "a8d366a7-6ecb-4322-861f-c41f258b6bb0",
+    "submitted_at": "2026-06-02T06:45:07.772974+00:00",
+    "completed_at": "2026-06-02T08:55:15.530880+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2004_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2004",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2004_01_06.nc",
+    "status": "complete",
+    "request_id": "c9019da4-70b5-47c5-add7-37275efc5412",
+    "submitted_at": "2026-06-02T07:15:04.417905+00:00",
+    "completed_at": "2026-06-02T09:35:13.479630+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2004_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2004",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2004_07_12.nc",
+    "status": "complete",
+    "request_id": "b53bbd16-3b98-4f3f-9c92-fbdc26307c3d",
+    "submitted_at": "2026-06-02T08:05:07.504162+00:00",
+    "completed_at": "2026-06-02T10:10:13.655737+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2005_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2005",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2005_01_06.nc",
+    "status": "complete",
+    "request_id": "976071c8-140d-47d7-a672-90326de95ce2",
+    "submitted_at": "2026-06-02T08:25:04.349911+00:00",
+    "completed_at": "2026-06-02T10:45:13.749744+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2005_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2005",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2005_07_12.nc",
+    "status": "complete",
+    "request_id": "6a619439-d95a-4c28-8470-8a85b6364804",
+    "submitted_at": "2026-06-02T08:45:03.858542+00:00",
+    "completed_at": "2026-06-02T11:25:12.506315+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2006_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2006",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2006_01_06.nc",
+    "status": "complete",
+    "request_id": "3b79800e-b992-4de6-82b3-10f68324becb",
+    "submitted_at": "2026-06-02T09:00:04.943192+00:00",
+    "completed_at": "2026-06-02T11:40:14.271725+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2006_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2006",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2006_07_12.nc",
+    "status": "complete",
+    "request_id": "04415505-9c21-4fb4-a25b-3fd5218e735b",
+    "submitted_at": "2026-06-02T09:40:04.778368+00:00",
+    "completed_at": "2026-06-02T12:00:32.916933+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2007_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2007",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2007_01_06.nc",
+    "status": "complete",
+    "request_id": "648a8f45-d1ae-49bf-9e3a-421d8a8df5c3",
+    "submitted_at": "2026-06-02T10:15:04.191665+00:00",
+    "completed_at": "2026-06-02T12:25:13.159982+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2007_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2007",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2007_07_12.nc",
+    "status": "complete",
+    "request_id": "137312a1-3847-4898-96d2-aa4b158a21ef",
+    "submitted_at": "2026-06-02T10:50:05.062788+00:00",
+    "completed_at": "2026-06-02T12:35:31.889961+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2008_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2008",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2008_01_06.nc",
+    "status": "complete",
+    "request_id": "bd7eb076-de44-4dc8-856d-a8d7f70c447b",
+    "submitted_at": "2026-06-02T11:30:05.155787+00:00",
+    "completed_at": "2026-06-02T13:00:17.379613+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2008_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2008",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2008_07_12.nc",
+    "status": "complete",
+    "request_id": "ea775534-1ac2-4be2-bfaf-9e2dddc4a2af",
+    "submitted_at": "2026-06-02T11:45:03.621439+00:00",
+    "completed_at": "2026-06-02T13:20:12.864255+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2009_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2009",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2009_01_06.nc",
+    "status": "complete",
+    "request_id": "36d89bdb-31c3-4e22-9038-8d5a5d4cd0f4",
+    "submitted_at": "2026-06-02T12:05:04.625500+00:00",
+    "completed_at": "2026-06-02T14:00:14.923473+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2009_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2009",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2009_07_12.nc",
+    "status": "complete",
+    "request_id": "7febc511-8d35-45b7-b088-a95d2ff21033",
+    "submitted_at": "2026-06-02T12:30:04.390980+00:00",
+    "completed_at": "2026-06-02T14:25:15.212293+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2010_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2010",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2010_01_06.nc",
+    "status": "complete",
+    "request_id": "649a69a0-cacb-457d-a264-aa6bf12349a6",
+    "submitted_at": "2026-06-02T12:40:03.644608+00:00",
+    "completed_at": "2026-06-02T14:35:16.188975+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2010_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2010",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2010_07_12.nc",
+    "status": "complete",
+    "request_id": "a17d3b3c-1982-4292-a1da-443583236a1f",
+    "submitted_at": "2026-06-02T13:05:03.729707+00:00",
+    "completed_at": "2026-06-02T15:15:13.669414+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2011_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2011",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2011_01_06.nc",
+    "status": "complete",
+    "request_id": "7708241a-714e-4ae2-ab7f-440dbb9f859a",
+    "submitted_at": "2026-06-02T13:25:03.607281+00:00",
+    "completed_at": "2026-06-02T15:40:22.688978+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2011_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2011",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2011_07_12.nc",
+    "status": "complete",
+    "request_id": "2679d4c1-a470-4ced-b9fd-b59ee4d8dc5e",
+    "submitted_at": "2026-06-02T14:05:04.085828+00:00",
+    "completed_at": "2026-06-02T16:40:11.921300+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2012_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2012",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2012_01_06.nc",
+    "status": "complete",
+    "request_id": "4fd9cbb8-5f37-46ef-ae0e-1e1805d2aa4a",
+    "submitted_at": "2026-06-02T14:30:04.136505+00:00",
+    "completed_at": "2026-06-02T17:05:13.030953+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2012_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2012",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2012_07_12.nc",
+    "status": "complete",
+    "request_id": "1606f751-89ef-42df-ac2f-7d0cdee6f510",
+    "submitted_at": "2026-06-02T14:40:06.308485+00:00",
+    "completed_at": "2026-06-02T17:20:12.638079+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2013_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2013",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2013_01_06.nc",
+    "status": "complete",
+    "request_id": "36cef30e-05dd-4cfd-8bae-ad5458666aa5",
+    "submitted_at": "2026-06-02T15:20:03.773552+00:00",
+    "completed_at": "2026-06-02T17:55:13.475097+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2013_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2013",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2013_07_12.nc",
+    "status": "complete",
+    "request_id": "0efc464c-0724-454b-a16b-92edef0a8145",
+    "submitted_at": "2026-06-02T15:45:03.905530+00:00",
+    "completed_at": "2026-06-02T18:30:38.799516+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2014_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2014",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2014_01_06.nc",
+    "status": "complete",
+    "request_id": "36e01b4d-75f7-4d9f-b525-e9b64d34f732",
+    "submitted_at": "2026-06-02T16:45:04.177816+00:00",
+    "completed_at": "2026-06-02T19:20:13.482561+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2014_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2014",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2014_07_12.nc",
+    "status": "complete",
+    "request_id": "2ad6b827-cbe5-44b8-8ae0-3710e7da2541",
+    "submitted_at": "2026-06-02T17:10:03.833076+00:00",
+    "completed_at": "2026-06-02T19:35:13.825140+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2015_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2015",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2015_01_06.nc",
+    "status": "complete",
+    "request_id": "0b1077bf-611d-4f3f-af32-cc329e0d6fc9",
+    "submitted_at": "2026-06-02T17:25:04.101670+00:00",
+    "completed_at": "2026-06-02T19:55:11.510172+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2015_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2015",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2015_07_12.nc",
+    "status": "complete",
+    "request_id": "988cb2b2-86a4-4d47-ab83-c2d88c823f41",
+    "submitted_at": "2026-06-02T18:00:03.429442+00:00",
+    "completed_at": "2026-06-02T21:15:12.384310+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2016_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2016",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2016_01_06.nc",
+    "status": "complete",
+    "request_id": "affd0b43-bcc7-4113-b386-e7908f8080cb",
+    "submitted_at": "2026-06-02T18:35:03.797222+00:00",
+    "completed_at": "2026-06-02T21:25:11.803223+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2016_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2016",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2016_07_12.nc",
+    "status": "complete",
+    "request_id": "2e1407c0-48cd-4624-8629-2ca35d3d179d",
+    "submitted_at": "2026-06-02T19:25:03.494696+00:00",
+    "completed_at": "2026-06-02T21:35:12.373584+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2017_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2017",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2017_01_06.nc",
+    "status": "complete",
+    "request_id": "10daddda-d488-4f9b-a593-54ceb1f8869a",
+    "submitted_at": "2026-06-02T19:40:04.015434+00:00",
+    "completed_at": "2026-06-02T22:00:13.805372+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2017_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2017",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2017_07_12.nc",
+    "status": "complete",
+    "request_id": "31c8eb50-d980-4a81-88ac-a67a4b241687",
+    "submitted_at": "2026-06-02T20:00:04.566450+00:00",
+    "completed_at": "2026-06-02T22:20:14.202664+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2018_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2018",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2018_01_06.nc",
+    "status": "complete",
+    "request_id": "da54bf21-adbb-41b5-8495-b7bd6db1e822",
+    "submitted_at": "2026-06-02T21:20:06.128459+00:00",
+    "completed_at": "2026-06-02T22:55:12.830704+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2018_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2018",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2018_07_12.nc",
+    "status": "complete",
+    "request_id": "686658fd-ba4e-4916-b3da-2deaa58881d4",
+    "submitted_at": "2026-06-02T21:30:03.940119+00:00",
+    "completed_at": "2026-06-02T23:10:13.464504+00:00",
+    "validated": true,
+    "error": null
+  },
+  "era5land_total_precipitation_2019_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2019",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2019_01_06.nc",
+    "status": "submitted",
+    "request_id": "5d96bd1c-ed51-4d11-b4a0-1800a0e5a3dc",
+    "submitted_at": "2026-06-02T21:40:03.970571+00:00",
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_total_precipitation_2019_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2019",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2019_07_12.nc",
+    "status": "submitted",
+    "request_id": "f0a03a15-332f-41e5-8e41-50b33d059a3b",
+    "submitted_at": "2026-06-02T22:05:03.588269+00:00",
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_total_precipitation_2020_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2020",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2020_01_06.nc",
+    "status": "submitted",
+    "request_id": "2c528d4b-ab24-413f-853c-a680a4f27843",
+    "submitted_at": "2026-06-02T22:25:03.384615+00:00",
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_total_precipitation_2020_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2020",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2020_07_12.nc",
+    "status": "submitted",
+    "request_id": "9fc8b7c2-4d31-4125-9472-56a9de97b27f",
+    "submitted_at": "2026-06-02T23:00:03.498913+00:00",
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_total_precipitation_2021_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2021",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2021_01_06.nc",
+    "status": "submitted",
+    "request_id": "41cb273f-380f-4c48-a1c5-7eb70a4d76ce",
+    "submitted_at": "2026-06-02T23:15:03.584198+00:00",
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_total_precipitation_2021_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2021",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2021_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_total_precipitation_2022_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2022",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2022_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_total_precipitation_2022_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2022",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2022_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_total_precipitation_2023_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2023",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2023_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_total_precipitation_2023_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2023",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2023_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_total_precipitation_2024_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2024",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2024_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_total_precipitation_2024_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "total_precipitation",
+    "year": "2024",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_total_precipitation_2024_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_geopotential_500hPa_1980_1988.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "geopotential"
+    ],
+    "year": [
+      "1980",
+      "1981",
+      "1982",
+      "1983",
+      "1984",
+      "1985",
+      "1986",
+      "1987",
+      "1988"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_geopotential_500hPa_1980_1988.nc",
+    "pressure_level": "500",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_geopotential_500hPa_1989_1997.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "geopotential"
+    ],
+    "year": [
+      "1989",
+      "1990",
+      "1991",
+      "1992",
+      "1993",
+      "1994",
+      "1995",
+      "1996",
+      "1997"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_geopotential_500hPa_1989_1997.nc",
+    "pressure_level": "500",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_geopotential_500hPa_1998_2006.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "geopotential"
+    ],
+    "year": [
+      "1998",
+      "1999",
+      "2000",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_geopotential_500hPa_1998_2006.nc",
+    "pressure_level": "500",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_geopotential_500hPa_2007_2015.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "geopotential"
+    ],
+    "year": [
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_geopotential_500hPa_2007_2015.nc",
+    "pressure_level": "500",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_geopotential_500hPa_2016_2024.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "geopotential"
+    ],
+    "year": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_geopotential_500hPa_2016_2024.nc",
+    "pressure_level": "500",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_geopotential_200hPa_1980_1988.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "geopotential"
+    ],
+    "year": [
+      "1980",
+      "1981",
+      "1982",
+      "1983",
+      "1984",
+      "1985",
+      "1986",
+      "1987",
+      "1988"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_geopotential_200hPa_1980_1988.nc",
+    "pressure_level": "200",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_geopotential_200hPa_1989_1997.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "geopotential"
+    ],
+    "year": [
+      "1989",
+      "1990",
+      "1991",
+      "1992",
+      "1993",
+      "1994",
+      "1995",
+      "1996",
+      "1997"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_geopotential_200hPa_1989_1997.nc",
+    "pressure_level": "200",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_geopotential_200hPa_1998_2006.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "geopotential"
+    ],
+    "year": [
+      "1998",
+      "1999",
+      "2000",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_geopotential_200hPa_1998_2006.nc",
+    "pressure_level": "200",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_geopotential_200hPa_2007_2015.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "geopotential"
+    ],
+    "year": [
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_geopotential_200hPa_2007_2015.nc",
+    "pressure_level": "200",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_geopotential_200hPa_2016_2024.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "geopotential"
+    ],
+    "year": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_geopotential_200hPa_2016_2024.nc",
+    "pressure_level": "200",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_uv_wind_850hPa_1980_1988.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "u_component_of_wind",
+      "v_component_of_wind"
+    ],
+    "year": [
+      "1980",
+      "1981",
+      "1982",
+      "1983",
+      "1984",
+      "1985",
+      "1986",
+      "1987",
+      "1988"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_uv_wind_850hPa_1980_1988.nc",
+    "pressure_level": "850",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_uv_wind_850hPa_1989_1997.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "u_component_of_wind",
+      "v_component_of_wind"
+    ],
+    "year": [
+      "1989",
+      "1990",
+      "1991",
+      "1992",
+      "1993",
+      "1994",
+      "1995",
+      "1996",
+      "1997"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_uv_wind_850hPa_1989_1997.nc",
+    "pressure_level": "850",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_uv_wind_850hPa_1998_2006.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "u_component_of_wind",
+      "v_component_of_wind"
+    ],
+    "year": [
+      "1998",
+      "1999",
+      "2000",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_uv_wind_850hPa_1998_2006.nc",
+    "pressure_level": "850",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_uv_wind_850hPa_2007_2015.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "u_component_of_wind",
+      "v_component_of_wind"
+    ],
+    "year": [
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_uv_wind_850hPa_2007_2015.nc",
+    "pressure_level": "850",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_uv_wind_850hPa_2016_2024.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "u_component_of_wind",
+      "v_component_of_wind"
+    ],
+    "year": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_uv_wind_850hPa_2016_2024.nc",
+    "pressure_level": "850",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_uv_wind_200hPa_1980_1988.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "u_component_of_wind",
+      "v_component_of_wind"
+    ],
+    "year": [
+      "1980",
+      "1981",
+      "1982",
+      "1983",
+      "1984",
+      "1985",
+      "1986",
+      "1987",
+      "1988"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_uv_wind_200hPa_1980_1988.nc",
+    "pressure_level": "200",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_uv_wind_200hPa_1989_1997.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "u_component_of_wind",
+      "v_component_of_wind"
+    ],
+    "year": [
+      "1989",
+      "1990",
+      "1991",
+      "1992",
+      "1993",
+      "1994",
+      "1995",
+      "1996",
+      "1997"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_uv_wind_200hPa_1989_1997.nc",
+    "pressure_level": "200",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_uv_wind_200hPa_1998_2006.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "u_component_of_wind",
+      "v_component_of_wind"
+    ],
+    "year": [
+      "1998",
+      "1999",
+      "2000",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_uv_wind_200hPa_1998_2006.nc",
+    "pressure_level": "200",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_uv_wind_200hPa_2007_2015.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "u_component_of_wind",
+      "v_component_of_wind"
+    ],
+    "year": [
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_uv_wind_200hPa_2007_2015.nc",
+    "pressure_level": "200",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5pl_uv_wind_200hPa_2016_2024.nc": {
+    "dataset": "reanalysis-era5-pressure-levels",
+    "variable": [
+      "u_component_of_wind",
+      "v_component_of_wind"
+    ],
+    "year": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5pl_uv_wind_200hPa_2016_2024.nc",
+    "pressure_level": "200",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5sl_mslp_1980_1988.nc": {
+    "dataset": "reanalysis-era5-single-levels",
+    "variable": [
+      "mean_sea_level_pressure"
+    ],
+    "year": [
+      "1980",
+      "1981",
+      "1982",
+      "1983",
+      "1984",
+      "1985",
+      "1986",
+      "1987",
+      "1988"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5sl_mslp_1980_1988.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5sl_mslp_1989_1997.nc": {
+    "dataset": "reanalysis-era5-single-levels",
+    "variable": [
+      "mean_sea_level_pressure"
+    ],
+    "year": [
+      "1989",
+      "1990",
+      "1991",
+      "1992",
+      "1993",
+      "1994",
+      "1995",
+      "1996",
+      "1997"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5sl_mslp_1989_1997.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5sl_mslp_1998_2006.nc": {
+    "dataset": "reanalysis-era5-single-levels",
+    "variable": [
+      "mean_sea_level_pressure"
+    ],
+    "year": [
+      "1998",
+      "1999",
+      "2000",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5sl_mslp_1998_2006.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5sl_mslp_2007_2015.nc": {
+    "dataset": "reanalysis-era5-single-levels",
+    "variable": [
+      "mean_sea_level_pressure"
+    ],
+    "year": [
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5sl_mslp_2007_2015.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5sl_mslp_2016_2024.nc": {
+    "dataset": "reanalysis-era5-single-levels",
+    "variable": [
+      "mean_sea_level_pressure"
+    ],
+    "year": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "months": [
+      "06",
+      "07",
+      "08",
+      "09"
+    ],
+    "area": [
+      80,
+      100,
+      10,
+      180
+    ],
+    "dest_name": "era5sl_mslp_2016_2024.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1980_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1980",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1980_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1980_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1980",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1980_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1981_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1981",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1981_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1981_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1981",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1981_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1982_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1982",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1982_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1982_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1982",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1982_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1983_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1983",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1983_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1983_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1983",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1983_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1984_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1984",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1984_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1984_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1984",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1984_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1985_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1985",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1985_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1985_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1985",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1985_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1986_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1986",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1986_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1986_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1986",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1986_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1987_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1987",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1987_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1987_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1987",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1987_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1988_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1988",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1988_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1988_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1988",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1988_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1989_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1989",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1989_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1989_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1989",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1989_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1990_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1990",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1990_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1990_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1990",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1990_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1991_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1991",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1991_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1991_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1991",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1991_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1992_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1992",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1992_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1992_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1992",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1992_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1993_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1993",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1993_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1993_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1993",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1993_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1994_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1994",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1994_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1994_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1994",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1994_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1995_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1995",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1995_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1995_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1995",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1995_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1996_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1996",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1996_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1996_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1996",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1996_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1997_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1997",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1997_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1997_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1997",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1997_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1998_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1998",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1998_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1998_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1998",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1998_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1999_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1999",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1999_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_1999_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "1999",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_1999_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2000_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2000",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2000_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2000_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2000",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2000_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2001_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2001",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2001_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2001_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2001",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2001_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2002_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2002",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2002_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2002_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2002",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2002_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2003_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2003",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2003_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2003_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2003",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2003_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2004_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2004",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2004_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2004_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2004",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2004_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2005_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2005",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2005_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2005_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2005",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2005_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2006_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2006",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2006_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2006_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2006",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2006_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2007_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2007",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2007_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2007_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2007",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2007_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2008_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2008",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2008_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2008_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2008",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2008_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2009_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2009",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2009_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2009_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2009",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2009_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2010_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2010",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2010_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2010_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2010",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2010_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2011_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2011",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2011_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2011_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2011",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2011_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2012_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2012",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2012_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2012_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2012",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2012_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2013_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2013",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2013_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2013_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2013",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2013_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2014_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2014",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2014_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2014_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2014",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2014_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2015_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2015",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2015_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2015_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2015",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2015_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2016_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2016",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2016_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2016_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2016",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2016_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2017_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2017",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2017_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2017_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2017",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2017_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2018_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2018",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2018_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2018_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2018",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2018_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2019_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2019",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2019_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2019_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2019",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2019_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2020_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2020",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2020_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2020_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2020",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2020_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2021_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2021",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2021_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2021_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2021",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2021_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2022_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2022",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2022_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2022_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2022",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2022_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2023_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2023",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2023_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2023_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2023",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2023_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2024_01_06.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2024",
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2024_01_06.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  },
+  "era5land_soil_water_layer1_2024_07_12.nc": {
+    "dataset": "reanalysis-era5-land",
+    "variable": "volumetric_soil_water_layer_1",
+    "year": "2024",
+    "months": [
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12"
+    ],
+    "area": [
+      38,
+      133,
+      33,
+      142
+    ],
+    "dest_name": "era5land_soil_water_layer1_2024_07_12.nc",
+    "status": "pending",
+    "request_id": null,
+    "submitted_at": null,
+    "completed_at": null,
+    "validated": false,
+    "error": null
+  }
+}
