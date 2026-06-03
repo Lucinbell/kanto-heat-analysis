@@ -9,7 +9,7 @@ mkdir -p "$REPO_ROOT/logs"
 
 exec 9>"$LOCK_FILE"
 if ! flock -n 9; then
-    echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] --- cycle skipped (already running) ---" >> "$LOG_FILE"
+    echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] --- cycle skipped (already running) ---"
     exit 0
 fi
 
