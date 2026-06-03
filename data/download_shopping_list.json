@@ -9,17 +9,21 @@
       {
         "variable": "2m_temperature",
         "dest_prefix": "era5land_2m_temperature",
-        "priority": 0
+        "priority": 0,
+        "data_format": "netcdf"
       },
       {
         "variable": "total_precipitation",
         "dest_prefix": "era5land_total_precipitation",
-        "priority": 1
+        "priority": 1,
+        "data_format": "netcdf"
       },
       {
         "variable": "volumetric_soil_water_layer_1",
         "dest_prefix": "era5land_soil_water_layer1",
-        "priority": 4
+        "priority": 4,
+        "data_format": "grib",
+        "month_block_size": 12
       }
     ]
   },
@@ -34,25 +38,43 @@
         "pressure_level": "500",
         "variable": ["geopotential"],
         "dest_prefix": "era5pl_geopotential_500hPa",
-        "priority": 2
+        "priority": 2,
+        "data_format": "grib"
       },
       {
         "pressure_level": "200",
         "variable": ["geopotential"],
         "dest_prefix": "era5pl_geopotential_200hPa",
-        "priority": 2
+        "priority": 2,
+        "data_format": "grib"
       },
       {
         "pressure_level": "850",
-        "variable": ["u_component_of_wind", "v_component_of_wind"],
-        "dest_prefix": "era5pl_uv_wind_850hPa",
-        "priority": 2
+        "variable": ["u_component_of_wind"],
+        "dest_prefix": "era5pl_u_wind_850hPa",
+        "priority": 2,
+        "data_format": "grib"
+      },
+      {
+        "pressure_level": "850",
+        "variable": ["v_component_of_wind"],
+        "dest_prefix": "era5pl_v_wind_850hPa",
+        "priority": 2,
+        "data_format": "grib"
       },
       {
         "pressure_level": "200",
-        "variable": ["u_component_of_wind", "v_component_of_wind"],
-        "dest_prefix": "era5pl_uv_wind_200hPa",
-        "priority": 2
+        "variable": ["u_component_of_wind"],
+        "dest_prefix": "era5pl_u_wind_200hPa",
+        "priority": 2,
+        "data_format": "grib"
+      },
+      {
+        "pressure_level": "200",
+        "variable": ["v_component_of_wind"],
+        "dest_prefix": "era5pl_v_wind_200hPa",
+        "priority": 2,
+        "data_format": "grib"
       }
     ]
   },
@@ -66,7 +88,8 @@
       {
         "variable": ["mean_sea_level_pressure"],
         "dest_prefix": "era5sl_mslp",
-        "priority": 2
+        "priority": 2,
+        "data_format": "grib"
       }
     ]
   }

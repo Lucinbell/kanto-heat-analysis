@@ -41,8 +41,8 @@ SECRETS = REPO_ROOT / ".secrets" / "dylan_wang.cdsapirc"
 _DAYS_ALL = [f"{d:02d}" for d in range(1, 32)]
 _HOURS_ALL = [f"{h:02d}:00" for h in range(24)]
 
-_STATE_FIELDS   = ("status", "request_id", "submitted_at", "completed_at", "validated", "error")
-_STATE_DEFAULTS = ("pending", None, None, None, False, None)
+_STATE_FIELDS   = ("status", "request_id", "submitted_at", "started_at", "completed_at", "validated", "error")
+_STATE_DEFAULTS = ("pending", None,         None,           None,         None,           False,       None)
 
 _CDS_FAILURE_STATUSES = {"failed", "error"}
 
@@ -99,11 +99,14 @@ def generate_request_manifest(
         month_blocks = [all_months[i:i + block_size] for i in range(0, len(all_months), block_size)]
         for var in sec["variables"]:
             priority = var.get("priority", 2)
+            data_format = var.get("data_format", "netcdf")
+            var_block_size = var.get("month_block_size", block_size)
+            var_month_blocks = [all_months[i:i + var_block_size] for i in range(0, len(all_months), var_block_size)]
             for year in years:
-                for block in month_blocks:
-                    suffix = block[0] if block_size == 1 else f"{block[0]}_{block[-1]}"
+                for block in var_month_blocks:
+                    suffix = block[0] if var_block_size == 1 else f"{block[0]}_{block[-1]}"
                     dest_name = f"{var['dest_prefix']}_{year}_{suffix}.nc"
-                    all_specs.append((dataset, var["variable"], year, block, area, dest_name, {}, priority))
+                    all_specs.append((dataset, var["variable"], year, block, area, dest_name, {"data_format": data_format}, priority))
 
     if "era5_pressure_levels" in shopping_list:
         sec = shopping_list["era5_pressure_levels"]
@@ -117,10 +120,11 @@ def generate_request_manifest(
                   for i in range(0, len(all_years), block_size)]
         for level in sec["levels"]:
             priority = level.get("priority", 2)
+            data_format = level.get("data_format", "netcdf")
             for block in blocks:
                 dest_name = f"{level['dest_prefix']}_{block[0]}_{block[-1]}.nc"
                 all_specs.append((dataset, level["variable"], block, months, area, dest_name,
-                                  {"pressure_level": level["pressure_level"]}, priority))
+                                  {"pressure_level": level["pressure_level"], "data_format": data_format}, priority))
 
     if "era5_single_levels" in shopping_list:
         sec = shopping_list["era5_single_levels"]
@@ -134,9 +138,10 @@ def generate_request_manifest(
                   for i in range(0, len(all_years), block_size)]
         for var in sec["variables"]:
             priority = var.get("priority", 2)
+            data_format = var.get("data_format", "netcdf")
             for block in blocks:
                 dest_name = f"{var['dest_prefix']}_{block[0]}_{block[-1]}.nc"
-                all_specs.append((dataset, var["variable"], block, months, area, dest_name, {}, priority))
+                all_specs.append((dataset, var["variable"], block, months, area, dest_name, {"data_format": data_format}, priority))
 
     all_specs.sort(key=lambda s: s[7])
 
@@ -180,10 +185,10 @@ def submit_pending_requests(manifest_path=DEFAULT_MANIFEST):
         if entry.get("status") != "pending":
             continue
         try:
-            request_id = _submit_request(client, entry)
+            request_id, submitted_at = _submit_request(client, entry)
             entry["status"] = "submitted"
             entry["request_id"] = request_id
-            entry["submitted_at"] = datetime.datetime.now(datetime.UTC).isoformat()
+            entry["submitted_at"] = submitted_at
             entry["error"] = None
             in_flight += 1
             submitted += 1
@@ -223,14 +228,23 @@ def poll_and_download(manifest_path=DEFAULT_MANIFEST):
             continue
 
         if remote.results_ready:
-            tmp_path = DATA_RAW / f"_tmp_{dest_name}"
+            data_format = entry.get("data_format", "netcdf")
             dest_path = DATA_RAW / dest_name
             DATA_RAW.mkdir(parents=True, exist_ok=True)
+            if data_format == "grib":
+                tmp_path = DATA_RAW / f"_tmp_{pathlib.Path(dest_name).stem}.grib"
+            else:
+                tmp_path = DATA_RAW / f"_tmp_{dest_name}"
             try:
                 _download_remote(remote, tmp_path)
-                _extract_if_zipped(tmp_path, dest_path)
+                if data_format == "grib":
+                    _convert_grib_to_netcdf(tmp_path, dest_path)
+                else:
+                    _extract_if_zipped(tmp_path, dest_path)
                 entry["status"] = "complete"
-                entry["completed_at"] = datetime.datetime.now(datetime.UTC).isoformat()
+                entry["submitted_at"]  = remote.created_at.isoformat()
+                entry["started_at"]    = remote.started_at.isoformat() if remote.started_at else None
+                entry["completed_at"]  = remote.finished_at.isoformat() if remote.finished_at else None
                 entry["error"] = None
                 downloaded += 1
                 print(f"[orchestrator] Downloaded: {dest_name}")
@@ -483,7 +497,7 @@ def _download_remote(remote, tmp_path):
 
 
 def _submit_request(client, entry):
-    """Submit one CDS request and return the request_id string."""
+    """Submit one CDS request and return (request_id, submitted_at_iso)."""
     dataset = entry["dataset"]
     variable = entry["variable"]
     if isinstance(variable, str):
@@ -496,7 +510,7 @@ def _submit_request(client, entry):
         "day": _DAYS_ALL,
         "time": _HOURS_ALL,
         "area": entry["area"],
-        "data_format": "netcdf",
+        "data_format": entry.get("data_format", "netcdf"),
     }
     if dataset in ("reanalysis-era5-pressure-levels", "reanalysis-era5-single-levels"):
         params["product_type"] = "reanalysis"
@@ -504,7 +518,7 @@ def _submit_request(client, entry):
         params["pressure_level"] = [str(entry["pressure_level"])]
 
     remote = client.submit(dataset, params)
-    return remote.request_id
+    return remote.request_id, remote.created_at.isoformat()
 
 
 def _make_client():
@@ -521,6 +535,23 @@ def _make_cdsapi_client():
     # TODO: remove once download_era5land / download_era5 are migrated to ecmwf-datastores-client
     os.environ["CDSAPI_RC"] = str(SECRETS)
     return cdsapi.Client()
+
+
+def _convert_grib_to_netcdf(tmp_path, dest_path):
+    """Convert a downloaded GRIB file (or zip containing one) to NetCDF."""
+    if zipfile.is_zipfile(tmp_path):
+        with zipfile.ZipFile(tmp_path, "r") as zf:
+            inner = next(n for n in zf.namelist() if not n.endswith("/"))
+            zf.extract(inner, path=tmp_path.parent)
+        grib_path = tmp_path.parent / inner
+        tmp_path.unlink()
+    else:
+        grib_path = tmp_path
+
+    ds = xr.open_dataset(grib_path, engine="cfgrib")
+    ds.to_netcdf(dest_path)
+    ds.close()
+    grib_path.unlink()
 
 
 def _extract_if_zipped(tmp_path, dest_path):
