@@ -16,3 +16,4 @@ dependencies:
   - pymannkendall=1.4.3
   - pygam=0.12.0
   - cartopy=0.25.0
+  - cfgrib
