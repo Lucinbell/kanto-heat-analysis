@@ -552,6 +552,8 @@ def _convert_grib_to_netcdf(tmp_path, dest_path):
     ds.to_netcdf(dest_path)
     ds.close()
     grib_path.unlink()
+    for idx_file in grib_path.parent.glob(grib_path.name + "*.idx"):
+        idx_file.unlink()
 
 
 def _extract_if_zipped(tmp_path, dest_path):
