@@ -26,8 +26,8 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Claude Code
-CLAUDE.md
+# Local machine config
+.local_env
 
 # Sandbox
 sandbox/
