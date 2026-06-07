@@ -32,8 +32,8 @@ import xarray as xr
 import cdsapi
 from ecmwf.datastores import Client as ECMWFClient
 
-REPO_ROOT = pathlib.Path(__file__).parents[1]
-DATA_RAW = REPO_ROOT / "data" / "raw"
+from src.paths import REPO_ROOT, RAW_DIR as DATA_RAW
+
 DEFAULT_MANIFEST      = REPO_ROOT / "data" / "download_manifest_main.json"
 DEFAULT_SHOPPING_LIST = REPO_ROOT / "data" / "download_shopping_list.json"
 SECRETS = REPO_ROOT / ".secrets" / "dylan_wang.cdsapirc"
