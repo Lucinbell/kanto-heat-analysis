@@ -8,6 +8,7 @@ dependencies:
   - numpy=2.4.6
   - pandas=3.0.3
   - xarray=2026.4.0
+  - dask=2026.3.0
   - matplotlib=3.10.9
   - scipy=1.17.1
   - netcdf4=1.7.4
