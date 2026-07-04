@@ -1,0 +1,88 @@
+{
+  "source_url": "https://www.data.jma.go.jp/risk/obsdl/index.php",
+  "encoding": "shift_jis",
+  "notes": "CSVs are Shift-JIS encoded. Skip first 4 rows (metadata); data starts at row 5. Load with: pd.read_csv(f, encoding='shift_jis', skiprows=4)",
+  "fields": [
+    {"name": "Daily mean temperature",    "name_ja": "日平均気温",       "code": "201"},
+    {"name": "Daily max temperature",     "name_ja": "日最高気温",       "code": "202"},
+    {"name": "Daily min temperature",     "name_ja": "日最低気温",       "code": "203"},
+    {"name": "Daily precipitation total", "name_ja": "降水量の日合計", "code": "101"}
+  ],
+  "stations": {
+    "tokyo": {
+      "name": "Tokyo",
+      "name_ja": "東京",
+      "code": "s47662",
+      "lat": 35.6833,
+      "lon": 139.7500,
+      "downloaded_at": "2026-06-01T08:01:00",
+      "period": {"start_year": 1980, "end_year": 2024, "start_month": 1, "end_month": 12, "start_day": 1, "end_day": 31},
+      "resolution": "daily",
+      "aggrgPeriod": 1,
+      "files": [
+        {"file": "2026-06-01_tokyo_1980_2004.csv", "years": "1980-2004", "size_bytes": 425680, "status": "ok"},
+        {"file": "2026-06-01_tokyo_2005_2024.csv", "years": "2005-2024", "size_bytes": 341091, "status": "ok"}
+      ]
+    },
+    "sapporo": {
+      "name": "Sapporo",
+      "name_ja": "札幌",
+      "code": "s47412",
+      "lat": 43.0500,
+      "lon": 141.3333,
+      "downloaded_at": "2026-06-01T08:01:00",
+      "period": {"start_year": 1980, "end_year": 2024, "start_month": 1, "end_month": 12, "start_day": 1, "end_day": 31},
+      "resolution": "daily",
+      "aggrgPeriod": 1,
+      "files": [
+        {"file": "2026-06-01_sapporo_1980_2004.csv", "years": "1980-2004", "size_bytes": 426931, "status": "ok"},
+        {"file": "2026-06-01_sapporo_2005_2024.csv", "years": "2005-2024", "size_bytes": 341731, "status": "ok"}
+      ]
+    },
+    "osaka": {
+      "name": "Osaka",
+      "name_ja": "大阪",
+      "code": "s47772",
+      "lat": 34.6833,
+      "lon": 135.5167,
+      "downloaded_at": "2026-06-01T11:49:00",
+      "period": {"start_year": 1980, "end_year": 2024, "start_month": 1, "end_month": 12, "start_day": 1, "end_day": 31},
+      "resolution": "daily",
+      "aggrgPeriod": 1,
+      "files": [
+        {"file": "2026-06-01_osaka_1980_2004.csv", "years": "1980-2004", "size_bytes": 424181, "status": "ok"},
+        {"file": "2026-06-01_osaka_2005_2024.csv", "years": "2005-2024", "size_bytes": 340107, "status": "ok"}
+      ]
+    },
+    "nagoya": {
+      "name": "Nagoya",
+      "name_ja": "名古屋",
+      "code": "s47636",
+      "lat": 35.1667,
+      "lon": 136.9667,
+      "downloaded_at": "2026-06-01T00:00:00",
+      "period": {"start_year": 1980, "end_year": 2024, "start_month": 1, "end_month": 12, "start_day": 1, "end_day": 31},
+      "resolution": "daily",
+      "aggrgPeriod": 1,
+      "files": [
+        {"file": "2026-06-01_nagoya_1980_2004.csv", "years": "1980-2004", "size_bytes": 424181, "status": "ok"},
+        {"file": "2026-06-01_nagoya_2005_2024.csv", "years": "2005-2024", "size_bytes": 424181, "status": "ok"}
+      ]
+    },
+    "fukuoka": {
+      "name": "Fukuoka",
+      "name_ja": "福岡",
+      "code": "s47807",
+      "lat": 33.5833,
+      "lon": 130.3833,
+      "downloaded_at": "2026-06-01T07:45:00",
+      "period": {"start_year": 1980, "end_year": 2024, "start_month": 1, "end_month": 12, "start_day": 1, "end_day": 31},
+      "resolution": "daily",
+      "aggrgPeriod": 1,
+      "files": [
+        {"file": "2026-06-01_fukuoka_1980_2004.csv", "years": "1980-2004", "size_bytes": 425680, "status": "ok"},
+        {"file": "2026-06-01_fukuoka_2005_2024.csv", "years": "2005-2024", "size_bytes": 341091, "status": "ok"}
+      ]
+    }
+  }
+}
