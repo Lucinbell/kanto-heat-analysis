@@ -6,14 +6,21 @@ data/*.zip
 data/*.tar
 data/*.gz
 data/raw/
-data/jma/
+data/jma/*
+data/processed/
 data/download_manifest.json
 !data/download_manifest_*.json
 !data/download_shopping_list.json
+!data/jma/master_receipt.json
+!data/jma/baiu_end_dates_1980_2025.csv
+!data/jma/baiu_data_readme.md
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
+
+# scripts/run_notebook.sh --check output
+*.check.ipynb
 
 # Python
 __pycache__/
@@ -31,6 +38,10 @@ Thumbs.db
 
 # Sandbox
 sandbox/
+temp_*.ipynb
+
+# Figures -for now
+figures/
 
 # Orchestrator logs
 logs/
