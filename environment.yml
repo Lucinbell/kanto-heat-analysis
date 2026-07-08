@@ -5,6 +5,11 @@ channels:
 dependencies:
   - python=3.12
   - jupyterlab=4.5.7
+  - libblas=3.11.0=*openblas       # pinned to the openblas build variant, not mkl -- the
+  - libcblas=3.11.0=*openblas       # conda-forge mkl build of libblas/libcblas/liblapack was
+  - liblapack=3.11.0=*openblas      # silently crashing (no traceback) on any BLAS gemm-backed
+                                     # call (np.corrcoef, np.cov, pandas .corr(), scipy.linalg) --
+                                     # confirmed 2026-07-04, see sandbox session notes
   - numpy=2.4.6
   - pandas=3.0.3
   - xarray=2026.4.0
@@ -18,3 +23,6 @@ dependencies:
   - pygam=0.12.0
   - cartopy=0.25.0
   - cfgrib
+  - pip
+  - pip:
+      - python-pptx==1.0.2  # SA2 poster assembly from the module PPTX template
