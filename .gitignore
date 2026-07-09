@@ -40,8 +40,6 @@ Thumbs.db
 sandbox/
 temp_*.ipynb
 
-# Figures -for now
-figures/
 
 # Orchestrator logs
 logs/
