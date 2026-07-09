@@ -28,7 +28,7 @@ See [`data/README.md`](data/README.md) for complete CDS API download instruction
 2. Create the conda environment: `conda env create -f environment.yml`
 3. Activate it: `conda activate kanto-heat`
 4. Download data per `data/README.md`.
-5. Run notebooks in order: `01_data_prep` → `07_sst_forcing`.
+5. Run notebooks in order: `01_cds_data_exploration` → `02_jma_data_exploration` → `03_cds_jma_comparison` → `04_rq1_extreme_heat_gam_v1.1` 
 
 ---
 
@@ -37,15 +37,18 @@ See [`data/README.md`](data/README.md) for complete CDS API download instruction
 ```
 kanto-heat-analysis/
 ├── notebooks/          # Unified analysis ordered by causal chain
-├── figures/            # All outputs, tagged by source notebook
-├── capstone/           # Administrative Capstone layer (poster, submission, map)
+├── capstone/           # Capstone deliverables: poster, figure code, provenance map
 ├── data/               # No data files — CDS API instructions only
-├── src/                # Shared utility functions
+├── figures/            # Exported plots from the notebooks
+├── src/                # Shared utility functions (indices, trend statistics, GAM)
+├── scripts/            # Notebook execution/summary tooling
 ├── references.bib      # BibTeX bibliography
 └── environment.yml     # Pinned conda environment
 ```
 
-See [`capstone/CAPSTONE_MAP.md`](capstone/CAPSTONE_MAP.md) for a panel-by-panel mapping of the SA2 poster to notebooks and figures.
+See [`capstone/README.md`](capstone/README.md) for the mapping from each poster
+figure to its notebook counterpart, and for the code that generated the poster
+figures.
 
 ---
 
@@ -62,7 +65,7 @@ Per university requirements:
 - AI usage is mentioned in the SA2 audio narration
 - Prompt and response logs are maintained to demonstrate academic integrity
 
-**Tool used:** Claude Code (Anthropic, `claude-sonnet-4-6`) · https://claude.ai/code
+**Tool used:** Claude Code (Anthropic; models `claude-sonnet-4-8` and `claude-opus-4-8`) · https://claude.ai/code
 
 For the University of Leeds' full guidance on generative AI assessment categories, see: https://generative-ai.leeds.ac.uk/ai-and-assessments/categories-of-assessments/
 
