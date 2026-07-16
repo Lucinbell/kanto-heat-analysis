@@ -11,8 +11,6 @@ University of Leeds MSc Data Science capstone (OLDA5302M, Cohort J02 2025/26). T
 - **RQ2:** How has the seasonal timing and intensity of the Baiu rainy season shifted over the same period?
 - **RQ3:** Does an earlier Baiu end date predict a more extreme subsequent heat wave season?
 
-**SA2 (narrated poster) deadline: 29 June 2026, 14:00 BST.**
-
 ## Environment
 
 ```bash
