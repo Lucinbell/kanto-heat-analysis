@@ -37,29 +37,6 @@ JUPYTER_KERNEL_PATH=C:\Users\<you>\AppData\Roaming\jupyter\kernels\kanto-heat
 - **`src/` for reusable code.** `climate_utils.py` holds shared functions (Mann-Kendall, Sen's slope, Baiu end date algorithm, index computation). `cds_orchestrator.py` is infrastructure, not analysis — keep it out of notebooks.
 - **`capstone/CAPSTONE_MAP.md` is written last.** Write it only after the analysis is finalised; figure filenames must reflect the final state.
 
-## Committed Methodology (SA1 Planning Form)
-
-These techniques were committed to in the submitted Assessment 1. They may evolve as the analysis unfolds but are the baseline to deviate from intentionally, not casually.
-
-| Technique | Purpose |
-|---|---|
-| Generalised Additive Model (GAM) | Non-linear trend estimation for temperature and Baiu seasonal totals |
-| Zero-inflated Gamma model | Two-part precipitation model (Bernoulli occurrence + Gamma intensity) — required to handle zero-inflation; omitting this would bias intensity estimates |
-| Linear regression / Pearson correlation | Testing the Baiu end date coupling hypothesis (RQ3) |
-
-**Seasonal windows:** Baiu season = June 1–July 31; heat wave season = July 1–September 30.
-**Thresholds:** extreme-heat day ≥35°C; tropical night ≥25°C overnight.
-**Evaluation:** GAM assessed via adjusted R² and residual diagnostics. All time-series models use bootstrap CI (1000 resamples). RQ3 coupling confirmed via permutation test (n=10,000).
-**Feasibility validation step:** Replicate 1980–2010 mean Baiu onset date against published JMA values before proceeding with full analysis.
-
-GEV distribution for return-period estimation was not committed to in SA1 — apply only if analytically justified.
-
-## Key Analytical Decisions
-
-- **Mann-Kendall + Pettitt together.** The 2002/2003 East Asian jet regime shift falls within the study period — a structural break Mann-Kendall alone may miss. Run both tests; let Pettitt identify the break date rather than imposing 2003 from prior literature. The GAM naturally captures the non-linear trajectory. Do not report a single linear trend across the full period.
-- **Niño 3.4 covariate in RQ3.** ENSO independently modulates both Baiu timing and heat wave severity, creating a confounding problem. Use multiple regression with Niño 3.4 as covariate; confirm the Baiu–heat signal survives exclusion of strong ENSO years. Frame RQ3 as a hypothesis to be tested, not an established relationship.
-- **Baiu trend is likely non-monotonic.** East Asian Summer Monsoon trends show non-monotonic behaviour across the study period. Expect and report a non-linear GAM trajectory — not a single slope.
-
 ## Causal Language Rules
 
 The ERA5 analysis documents observed trends and tests statistical associations — it cannot attribute those trends to specific forcing given the multi-ocean, ENSO-modulated nature of the system.
@@ -98,10 +75,6 @@ data/processed/
 
 **Credentials:** stored at `.secrets/{user_name}.cdsapirc` (gitignored). Point cdsapi at it via `os.environ["CDSAPI_RC"] = str(secrets_path)` — do not copy to `~/.cdsapirc`.
 
-## SA2 Scope Boundary
-
-The notebook sequence is ordered bottom-up along the mechanistic causal chain (Kanto surface → upstream SST forcing) and treated as a soft roadmap — sequencing may shift as the analysis unfolds. Notebooks covering Kanto heat, Baiu timing, and Baiu–heat coupling are **SA2 core**. Notebooks covering large-scale circulation indices and SST forcing are **addendum** (GitHub only, not assessed).
-
 ## Session Folders
 
 At the start of each work session, create a session folder at `sandbox\YYYY-MM-DD-[NN]-[topic]\`:
@@ -114,6 +87,8 @@ Each session folder must contain a `README.md` covering: objective, plan, and wh
 ## Project Documentation & Tracking
 
 **Confluence** (space `GP` at `lucinbell.atlassian.net`) is the central repository for memos, notes, and project documentation. When the user says "check Confluence", start from the top page (ID 289308674) and navigate from there.
+
+**Research direction, methodology, and analytical decisions** live in the Confluence page "Research Direction & Methodology Decisions" (ID 305823747, child of the top page), not in this file. They are kept there so they stay flexible as the exploration evolves. `CLAUDE.md` holds only durable repo and working conventions.
 
 **Jira** (project `KHA` at `lucinbell.atlassian.net`) is the task kanban. When the user says "check my kanban", look there. Epic structure: KHA-1 (Setup) → KHA-2 (Data) → KHA-3 (EDA) → KHA-4 (Modelling) → KHA-5 (Addendum) → KHA-6 (SA2 deliverable).
 
